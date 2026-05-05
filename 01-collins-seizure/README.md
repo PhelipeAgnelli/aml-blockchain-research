@@ -1,6 +1,6 @@
 # 14 Years of Silence: On-Chain Forensic Analysis of the Clifton Collins Bitcoin Seizure
 
-**Report:** AML-IR-2026-003 · **Author:** Phelipe Agnelli · **Date:** March 2026  
+**Report:** AML-IR-2026-001 · **Author:** Phelipe Agnelli · **Date:** March 2026  
 **Data:** mempool.space (verified) · Arkham Intelligence · Garda Síochána official press release  
 **Frameworks:** ACAMS CAMS 10th Ed. · FATF VA Guidance 2021 · EU 6AMLD · CJ(ML&TF) Act 2010
 
