@@ -35,7 +35,7 @@ This is not affiliated with any institution. It's the work of someone who finds 
 |---|------|------|----------------|--------|
 | 01 | Clifton Collins — Irish Drug Dealer Bitcoin Seizure | Mar 2026 | Structuring · Relay Hop · Dormancy OPSEC · Fan-Out | [→ Read](./01-collins-seizure/) |
 | 02 | Tornado Cash — When Code Goes to Trial | May 2026 | Mixer · zk-SNARK · Lazarus Group · Developer Liability | [→ Read](./02-tornado-cash/) |
-| 03 | Kraken — The Human Layer: $18.2M Social Engineering
+| 03 | Kraken — The Human Layer: $18.2M Social Engineering Attack | May 2026 | Social Engineering · THORChain · Behavioral AML · VASP Controls | [→ Read](./03-kraken-social-engineering/) |
 | 04 | *(coming soon)*
 
 ---
