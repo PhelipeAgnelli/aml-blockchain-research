@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Background -->
+  <rect width="1400" height="820" fill="#ffffff"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="52" fill="#1a3a6b"/>
+  <text x="20" y="20" font-size="11" fill="#ffffff" font-weight="700" letter-spacing="1">CASE STUDY — SOCIAL ENGINEERING &amp; CROSS-CHAIN LAUNDERING</text>
+  <text x="20" y="38" font-size="9.5" fill="#93c5fd">Case AML-IR-2026-005  ·  Kraken User  ·  $18.2M stolen  ·  THORChain laundering  ·  March 31, 2026  ·  ZachXBT alert</text>
+  <text x="1380" y="30" font-size="8" fill="#93c5fd" text-anchor="end">ACAMS · FATF · BSA/FinCEN · EU 6AMLD</text>
+
+  <!-- Section title -->
+  <text x="20" y="74" font-size="11" fill="#1a3a6b" font-weight="700">Case Flow Diagram</text>
+  <line x1="20" y1="78" x2="1380" y2="78" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <!-- ARROW MARKERS -->
+  <defs>
+    <marker id="arr-red"    markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#dc2626"/></marker>
+    <marker id="arr-orange" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#d97706"/></marker>
+    <marker id="arr-blue"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#1a3a6b"/></marker>
+    <marker id="arr-green"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#059669"/></marker>
+    <marker id="arr-gray"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#6b7280"/></marker>
+    <marker id="arr-purple" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#7c3aed"/></marker>
+  </defs>
+
+  <!-- MAIN TIMELINE -->
+  <line x1="60" y1="420" x2="1340" y2="420" stroke="#1a3a6b" stroke-width="2"/>
+  <text x="20" y="416" font-size="8" fill="#1a3a6b" font-weight="700">Timeline</text>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 1: ATTACKER                    -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="62" y="388" width="64" height="64" rx="4" fill="#fff0f0" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="94" cy="406" r="10" fill="#dc2626"/>
+  <text x="94" y="410" font-size="10" fill="#fff" text-anchor="middle">⚠</text>
+  <rect x="68" y="418" width="52" height="22" rx="3" fill="#dc2626"/>
+  <text x="94" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">ATTACKER</text>
+  <text x="94" y="440" font-size="6" fill="#fff" text-anchor="middle">Unknown actor</text>
+  <text x="94" y="452" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">Social engineer</text>
+
+  <!-- Attacker characteristics -->
+  <rect x="14" y="88" width="162" height="210" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="88" width="162" height="18" rx="3" fill="#dc2626"/>
+  <text x="95" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Attack Methods</text>
+  <text x="22" y="118" font-size="7.5" fill="#374151">• Impersonation of Kraken</text>
+  <text x="22" y="131" font-size="7.5" fill="#374151">  support / security team</text>
+  <text x="22" y="144" font-size="7.5" fill="#374151">• Urgency injection</text>
+  <text x="22" y="157" font-size="7.5" fill="#374151">  ("account at risk")</text>
+  <text x="22" y="170" font-size="7.5" fill="#374151">• Seed phrase extraction</text>
+  <text x="22" y="183" font-size="7.5" fill="#374151">  OR malicious TX approval</text>
+  <text x="22" y="200" font-size="7.5" fill="#dc2626" font-weight="700">⚠ No technical exploit</text>
+  <text x="22" y="212" font-size="7.5" fill="#dc2626" font-weight="700">⚠ Pure psychological</text>
+  <text x="22" y="224" font-size="7.5" fill="#dc2626" font-weight="700">   manipulation</text>
+  <text x="22" y="241" font-size="7.5" fill="#374151">Red Flag: ACAMS 2.4</text>
+  <text x="22" y="253" font-size="7.5" fill="#374151">ACAMS 6.2.1 · FATF §4.2</text>
+  <text x="22" y="265" font-size="7.5" fill="#374151">Fraud as predicate offence</text>
+  <text x="22" y="277" font-size="7.5" fill="#374151">FATF R.3 · EU 6AMLD Art.2</text>
+  <line x1="94" y1="298" x2="94" y2="388" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 2: VICTIM (Kraken user)        -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="220" y="388" width="64" height="64" rx="4" fill="#fefce8" stroke="#ca8a04" stroke-width="1.5"/>
+  <circle cx="252" cy="406" r="10" fill="#ca8a04"/>
+  <text x="252" y="410" font-size="10" fill="#fff" text-anchor="middle">👤</text>
+  <rect x="226" y="418" width="52" height="22" rx="3" fill="#ca8a04"/>
+  <text x="252" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">KRAKEN USER</text>
+  <text x="252" y="440" font-size="6" fill="#6b7280" text-anchor="middle">High-value account</text>
+  <text x="252" y="452" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">$18.2M stolen</text>
+
+  <!-- Arrow Attacker → Victim -->
+  <line x1="126" y1="420" x2="218" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="132" y="404" width="80" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="172" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">manipulation / deception</text>
+
+  <!-- Victim characteristics below -->
+  <rect x="168" y="524" width="174" height="90" rx="3" fill="#fefce8" stroke="#ca8a04" stroke-width="1"/>
+  <rect x="168" y="524" width="174" height="16" rx="3" fill="#ca8a04"/>
+  <text x="255" y="535" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">Why Victims Comply</text>
+  <text x="176" y="552" font-size="7.5" fill="#374151">• Authority bias (trust in brand)</text>
+  <text x="176" y="564" font-size="7.5" fill="#374151">• Urgency bypasses rational thinking</text>
+  <text x="176" y="576" font-size="7.5" fill="#374151">• Fear of losing funds overrides</text>
+  <text x="176" y="588" font-size="7.5" fill="#374151">  security instincts</text>
+  <text x="176" y="600" font-size="7.5" fill="#dc2626" font-weight="700">ACAMS 2.4 · FATF §4.2</text>
+  <line x1="252" y1="452" x2="252" y2="524" stroke="#ca8a04" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 3: KRAKEN EXCHANGE             -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="366" y="388" width="70" height="64" rx="4" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1.5"/>
+  <circle cx="401" cy="406" r="10" fill="#1a3a6b"/>
+  <text x="401" y="410" font-size="10" fill="#fff" text-anchor="middle">🏦</text>
+  <rect x="372" y="418" width="58" height="22" rx="3" fill="#1a3a6b"/>
+  <text x="401" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">KRAKEN</text>
+  <text x="401" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Exchange / VASP</text>
+  <text x="401" y="452" font-size="6" fill="#d97706" text-anchor="middle" font-weight="700">Controls failed</text>
+
+  <!-- Arrow Victim → Kraken -->
+  <line x1="284" y1="420" x2="364" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="290" y="404" width="68" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="324" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">fund withdrawal</text>
+
+  <!-- Missing controls box -->
+  <rect x="316" y="88" width="190" height="220" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="316" y="88" width="190" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="411" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Missing Controls — VASP</text>
+  <text x="324" y="118" font-size="7.5" fill="#dc2626" font-weight="700">What should have triggered:</text>
+  <text x="324" y="131" font-size="7.5" fill="#374151">✗ Session anomaly detection</text>
+  <text x="324" y="143" font-size="7.5" fill="#6b7280">  (new device + full balance out)</text>
+  <text x="324" y="156" font-size="7.5" fill="#374151">✗ Withdrawal velocity limits</text>
+  <text x="324" y="168" font-size="7.5" fill="#6b7280">  (full balance in minutes)</text>
+  <text x="324" y="181" font-size="7.5" fill="#374151">✗ Unhosted wallet screening</text>
+  <text x="324" y="193" font-size="7.5" fill="#6b7280">  (pre-execution, not post)</text>
+  <text x="324" y="206" font-size="7.5" fill="#374151">✗ Anti-SE callback protocol</text>
+  <text x="324" y="218" font-size="7.5" fill="#6b7280">  (verify via registered number)</text>
+  <text x="324" y="231" font-size="7.5" fill="#374151">✗ Real-time intel integration</text>
+  <text x="324" y="243" font-size="7.5" fill="#6b7280">  (TRM Beacon / Chainalysis KYT)</text>
+  <text x="324" y="261" font-size="7.5" fill="#dc2626" font-weight="700">ACAMS 6.2.1 · FATF VA §4.2</text>
+  <text x="324" y="273" font-size="7.5" fill="#374151">BSA SAR obligation: triggered</text>
+  <line x1="401" y1="308" x2="401" y2="388" stroke="#1a3a6b" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 4: THORCHAIN                   -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="520" y="380" width="76" height="80" rx="4" fill="#f5f0ff" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="558" cy="400" r="14" fill="#7c3aed"/>
+  <text x="558" y="405" font-size="14" fill="#fff" text-anchor="middle">🌀</text>
+  <text x="558" y="422" font-size="7" fill="#7c3aed" text-anchor="middle" font-weight="700">THORCHAIN</text>
+  <text x="558" y="432" font-size="7" fill="#7c3aed" text-anchor="middle">Cross-chain</text>
+  <text x="558" y="442" font-size="6.5" fill="#6b7280" text-anchor="middle">ETH → BTC bridge</text>
+  <text x="558" y="454" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">No KYC · No freeze</text>
+
+  <!-- Arrow Kraken → THORChain -->
+  <line x1="436" y1="420" x2="518" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="442" y="404" width="70" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="477" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">878 ETH → BTC swap</text>
+
+  <!-- THORChain characteristics -->
+  <rect x="480" y="88" width="180" height="190" rx="3" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="480" y="88" width="180" height="18" rx="3" fill="#7c3aed"/>
+  <text x="570" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">THORChain — Laundering Rail</text>
+  <text x="488" y="118" font-size="7.5" fill="#374151">• Permissionless by design</text>
+  <text x="488" y="131" font-size="7.5" fill="#374151">• No KYC at protocol level</text>
+  <text x="488" y="144" font-size="7.5" fill="#374151">• No freeze mechanism</text>
+  <text x="488" y="157" font-size="7.5" fill="#374151">• Cross-chain: ETH → BTC</text>
+  <text x="488" y="170" font-size="7.5" fill="#374151">• Breaks on-chain trail</text>
+  <text x="488" y="183" font-size="7.5" fill="#374151">  between networks</text>
+  <text x="488" y="200" font-size="7.5" fill="#dc2626" font-weight="700">⚠ 2nd major case in this</text>
+  <text x="488" y="212" font-size="7.5" fill="#dc2626" font-weight="700">  portfolio using THORChain</text>
+  <text x="488" y="224" font-size="7.5" fill="#374151">  (see also AML-IR-2026-004)</text>
+  <text x="488" y="241" font-size="7.5" fill="#374151">FATF VA §5.3 · ACAMS 4.3.3</text>
+  <text x="488" y="253" font-size="7.5" fill="#374151">Enforcement only possible</text>
+  <text x="488" y="265" font-size="7.5" fill="#374151">at fiat conversion point</text>
+  <line x1="558" y1="278" x2="558" y2="380" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Pool below THORChain -->
+  <rect x="490" y="524" width="160" height="60" rx="3" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="490" y="524" width="160" height="16" rx="3" fill="#7c3aed"/>
+  <text x="570" y="535" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">Streaming Swap Detail</text>
+  <text x="498" y="552" font-size="7.5" fill="#374151">878 ETH (~$1.8M initial tranche)</text>
+  <text x="498" y="564" font-size="7.5" fill="#374151">→ 26.6 BTC converted</text>
+  <text x="498" y="576" font-size="7.5" fill="#dc2626" font-weight="700">Detected: 45 min before alert</text>
+  <line x1="558" y1="460" x2="558" y2="524" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 5: SAFEPAL WALLET              -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="678" y="388" width="66" height="64" rx="4" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <circle cx="711" cy="406" r="10" fill="#ca8a04"/>
+  <text x="711" y="410" font-size="10" fill="#fff" text-anchor="middle">💳</text>
+  <rect x="684" y="418" width="54" height="22" rx="3" fill="#ca8a04"/>
+  <text x="711" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">SAFEPAL</text>
+  <text x="711" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Non-custodial wallet</text>
+  <text x="711" y="452" font-size="6" fill="#6b7280" text-anchor="middle">Relay hop layer</text>
+
+  <!-- Arrow THORChain → SafePal -->
+  <line x1="596" y1="420" x2="676" y2="420" stroke="#d97706" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <rect x="602" y="404" width="68" height="14" rx="2" fill="#fffbeb" stroke="#d97706" stroke-width="0.5"/>
+  <text x="636" y="414" font-size="7" fill="#d97706" text-anchor="middle" font-weight="700">BTC relay hop</text>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 6: MULTIPLE BTC ADDRESSES      -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="820" y="388" width="70" height="64" rx="4" fill="#fff0f0" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="855" cy="406" r="10" fill="#dc2626"/>
+  <text x="855" y="410" font-size="10" fill="#fff" text-anchor="middle">₿</text>
+  <rect x="826" y="418" width="58" height="22" rx="3" fill="#dc2626"/>
+  <text x="855" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">MULTIPLE BTC</text>
+  <text x="855" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Dispersed addresses</text>
+  <text x="855" y="452" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">Fan-out pattern</text>
+
+  <!-- Arrow SafePal → BTC addresses -->
+  <line x1="744" y1="420" x2="818" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="750" y="404" width="62" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="781" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">split / disperse</text>
+
+  <!-- Fan-out characteristics -->
+  <rect x="670" y="88" width="270" height="200" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="670" y="88" width="270" height="18" rx="3" fill="#dc2626"/>
+  <text x="805" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Laundering Architecture</text>
+  <text x="678" y="118" font-size="7.5" fill="#374151">ETH theft addr:</text>
+  <text x="678" y="130" font-size="7" fill="#dc2626">0xC55149BbD560435a9FbEabFdcF9711cf928acA21</text>
+  <text x="678" y="146" font-size="7.5" fill="#374151">BTC destination:</text>
+  <text x="678" y="158" font-size="7" fill="#dc2626">1D8f8956EEFLXN28AHfioEx4ywVbxCz8KN</text>
+  <line x1="678" y1="165" x2="930" y2="165" stroke="#fee2e2" stroke-width="0.8"/>
+  <text x="678" y="180" font-size="7.5" fill="#374151">Flow: ETH → THORChain → BTC → SafePal</text>
+  <text x="678" y="193" font-size="7.5" fill="#374151">       → multiple addresses → fiat exit</text>
+  <text x="678" y="210" font-size="7.5" fill="#374151">Each hop: new chain + new address type</text>
+  <text x="678" y="223" font-size="7.5" fill="#374151">Defeats automated cross-chain clustering</text>
+  <text x="678" y="240" font-size="7.5" fill="#dc2626" font-weight="700">FATF VA §5.3 · ACAMS 4.3.3 · ACAMS 5.1.1</text>
+  <text x="678" y="252" font-size="7.5" fill="#374151">Recovery rate March 2026: <tspan fill="#dc2626" font-weight="700">0.04%</tspan></text>
+  <text x="678" y="264" font-size="7.5" fill="#374151">Source: CertiK March 2026 Security Report</text>
+  <line x1="711" y1="288" x2="711" y2="388" stroke="#ca8a04" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="855" y1="288" x2="855" y2="388" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 7: FIAT EXIT / INSTANT EXCHANGE-->
+  <!-- ════════════════════════════════════ -->
+  <rect x="968" y="388" width="70" height="64" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="1003" cy="406" r="10" fill="#d97706"/>
+  <text x="1003" y="410" font-size="10" fill="#fff" text-anchor="middle">💱</text>
+  <rect x="974" y="418" width="58" height="22" rx="3" fill="#d97706"/>
+  <text x="1003" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">INSTANT EX.</text>
+  <text x="1003" y="440" font-size="6" fill="#6b7280" text-anchor="middle">No-KYC swap</text>
+  <text x="1003" y="452" font-size="6" fill="#059669" text-anchor="middle" font-weight="700">⚡ CHOKEPOINT</text>
+
+  <!-- Arrow BTC → Fiat exit -->
+  <line x1="890" y1="420" x2="966" y2="420" stroke="#d97706" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <text x="928" y="413" font-size="7" fill="#d97706" text-anchor="middle">fiat conversion</text>
+
+  <!-- Chokepoint box -->
+  <rect x="958" y="88" width="200" height="220" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+  <rect x="958" y="88" width="200" height="18" rx="3" fill="#d97706"/>
+  <text x="1058" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">The Only Enforcement Point</text>
+  <text x="966" y="118" font-size="7.5" fill="#374151">Fiat conversion requires touching</text>
+  <text x="966" y="130" font-size="7.5" fill="#374151">a regulated VASP or instant exchange</text>
+  <text x="966" y="147" font-size="7.5" fill="#374151">VASP obligations here:</text>
+  <text x="966" y="159" font-size="7.5" fill="#374151">✓ Screen against flagged addresses</text>
+  <text x="966" y="171" font-size="7.5" fill="#374151">✓ Check ZachXBT / CertiK alerts</text>
+  <text x="966" y="183" font-size="7.5" fill="#374151">✓ Apply EDD on large BTC deposits</text>
+  <text x="966" y="195" font-size="7.5" fill="#374151">✓ File SAR — reasonable suspicion</text>
+  <text x="966" y="207" font-size="7.5" fill="#374151">✓ Freeze + notify FIU</text>
+  <text x="966" y="224" font-size="7.5" fill="#374151">TRM Beacon Network: real-time</text>
+  <text x="966" y="236" font-size="7.5" fill="#374151">flagged address sharing</text>
+  <text x="966" y="253" font-size="7.5" fill="#dc2626" font-weight="700">ACAMS 2.3 · FATF R.20</text>
+  <text x="966" y="265" font-size="7.5" fill="#dc2626" font-weight="700">BSA — 30-day SAR window</text>
+  <text x="966" y="280" font-size="7.5" fill="#374151">GENIUS Act 2025 — SAR mandatory</text>
+  <text x="966" y="292" font-size="7.5" fill="#374151">for crypto MSBs</text>
+  <line x1="1003" y1="308" x2="1003" y2="388" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- BROADER PATTERN BOX                 -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="1172" y="88" width="212" height="364" rx="3" fill="#f0fdf4" stroke="#059669" stroke-width="1.5"/>
+  <rect x="1172" y="88" width="212" height="18" rx="3" fill="#059669"/>
+  <text x="1278" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">2025–2026 Pattern</text>
+  <text x="1180" y="118" font-size="7.5" fill="#374151" font-weight="700">Same playbook — multiple cases:</text>
+  <text x="1180" y="135" font-size="7" fill="#ca8a04" font-weight="700">Mar 2026 — Kraken user</text>
+  <text x="1180" y="146" font-size="7" fill="#374151">$18.2M · THORChain · SafePal</text>
+  <text x="1180" y="162" font-size="7" fill="#ca8a04" font-weight="700">Jan 2026 — $282M theft</text>
+  <text x="1180" y="173" font-size="7" fill="#374151">Hardware wallet impersonation</text>
+  <text x="1180" y="184" font-size="7" fill="#374151">THORChain → Monero</text>
+  <text x="1180" y="200" font-size="7" fill="#ca8a04" font-weight="700">Apr 2025 — $330M elderly victim</text>
+  <text x="1180" y="211" font-size="7" fill="#374151">Seed phrase social engineering</text>
+  <text x="1180" y="222" font-size="7" fill="#374151">Largest individual SE theft 2025</text>
+  <text x="1180" y="238" font-size="7" fill="#ca8a04" font-weight="700">May 2025 — Coinbase insider</text>
+  <text x="1180" y="249" font-size="7" fill="#374151">Bribed overseas contractors</text>
+  <text x="1180" y="260" font-size="7" fill="#374151">KYC data used for impersonation</text>
+  <line x1="1180" y1="270" x2="1376" y2="270" stroke="#d1fae5" stroke-width="0.8"/>
+  <text x="1180" y="284" font-size="7.5" fill="#374151" font-weight="700">Common thread:</text>
+  <text x="1180" y="296" font-size="7.5" fill="#374151">Human = vulnerability</text>
+  <text x="1180" y="308" font-size="7.5" fill="#374151">THORChain = exit rail</text>
+  <text x="1180" y="320" font-size="7.5" fill="#374151">Impersonation tactics: +1,400%</text>
+  <line x1="1180" y1="330" x2="1376" y2="330" stroke="#d1fae5" stroke-width="0.8"/>
+  <text x="1180" y="344" font-size="7.5" fill="#374151" font-weight="700">Statistics (CertiK Q1 2026):</text>
+  <text x="1180" y="356" font-size="7.5" fill="#374151">$501M lost · 145 incidents</text>
+  <text x="1180" y="368" font-size="7.5" fill="#374151">Recovery rate: <tspan fill="#dc2626" font-weight="700">0.04%</tspan></text>
+  <text x="1180" y="384" font-size="7.5" fill="#374151">Social engineering: dominant</text>
+  <text x="1180" y="396" font-size="7.5" fill="#374151">vector Q1 2026</text>
+  <text x="1180" y="412" font-size="7.5" fill="#059669" font-weight="700">Takeaway: Behavioral AML</text>
+  <text x="1180" y="424" font-size="7.5" fill="#059669" font-weight="700">monitoring is not optional</text>
+  <text x="1180" y="436" font-size="7.5" fill="#374151">On-chain analytics alone miss</text>
+  <text x="1180" y="448" font-size="7.5" fill="#374151">Phase 1 of every SE attack</text>
+
+  <!-- Arrow Fiat exit → Broader pattern -->
+  <line x1="1038" y1="420" x2="1170" y2="300" stroke="#059669" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-green)"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- BOTTOM: RED FLAGS + RECOMMENDATIONS  -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="14" y="578" width="580" height="136" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="578" width="580" height="18" rx="3" fill="#dc2626"/>
+  <text x="304" y="590" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">AML Red Flags — Behavioral + On-Chain</text>
+  <g font-size="7.5" fill="#374151">
+    <text x="22" y="610">• Sudden full-balance withdrawal from long-dormant account — ACAMS 3.1.2</text>
+    <text x="22" y="623">• New device/IP + large outflow in same session — ACAMS 6.2.1 · FATF VA §4.2</text>
+    <text x="22" y="636">• Unhosted wallet destination with no prior relationship — FATF R.16</text>
+    <text x="22" y="649">• Cross-chain bridge activity (THORChain) within hours of account access — FATF VA §5.3</text>
+    <text x="22" y="662">• Fan-out to multiple BTC addresses post-bridge — ACAMS 4.3.3</text>
+    <text x="22" y="675">• SafePal / non-custodial wallet relay hop — ACAMS 5.1.1</text>
+    <text x="22" y="688">• Temporal proximity to ZachXBT / CertiK public alert — automatic EDD trigger</text>
+    <text x="22" y="701" fill="#dc2626" font-weight="700">Frameworks: ACAMS 6.2.1 · FATF VA §4.2/5.3 · BSA · GENIUS Act 2025 · EU 6AMLD Art.2</text>
+    <text x="22" y="713" fill="#374151">Behavioral AML required alongside on-chain analytics — SE attacks begin before any transaction</text>
+  </g>
+
+  <!-- Recommendations box -->
+  <rect x="606" y="578" width="778" height="136" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="606" y="578" width="778" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="995" y="590" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Recommendations for VASPs</text>
+  <g font-size="7.5">
+    <text x="614" y="610" fill="#374151">1. Session anomaly detection: new device/IP + full balance withdrawal = mandatory step-up auth</text>
+    <text x="614" y="623" fill="#374151">2. Withdrawal velocity limits + delay window (30 min minimum) on large unhosted wallet transfers</text>
+    <text x="614" y="636" fill="#374151">3. Pre-execution screening of ALL unhosted wallet destinations vs. real-time threat intelligence</text>
+    <text x="614" y="649" fill="#374151">4. Anti-SE callback: proactive outbound call to registered number for large withdrawals (independent of inbound contact)</text>
+    <text x="614" y="662" fill="#374151">5. Integrate TRM Beacon Network / Chainalysis KYT for real-time flagged address sharing</text>
+    <text x="614" y="675" fill="#374151">6. Subscribe to ZachXBT and CertiK public intelligence feeds — 45-minute window is the intervention opportunity</text>
+    <text x="614" y="688" fill="#374151">7. Configure cross-chain bridge inflow monitoring: flag BTC deposits with THORChain history within 24h lookback</text>
+    <text x="614" y="701" fill="#059669" font-weight="700">Key insight: The 45-minute window between first movement and public alert = the compliance intervention window</text>
+    <text x="614" y="713" fill="#374151" font-size="7">ACAMS CAMS 10th Ed. · FATF VA Guidance 2021 · BSA/FinCEN SAR · GENIUS Act 2025 · EU 6AMLD</text>
+  </g>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- TIMELINE STRIP                       -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="0" y="728" width="1400" height="72" fill="#f8fafc"/>
+  <rect x="0" y="728" width="1400" height="1" fill="#e2e8f0"/>
+  <text x="20" y="746" font-size="7.5" fill="#1a3a6b" font-weight="700">Chronology:</text>
+  <line x1="100" y1="758" x2="1380" y2="758" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <g font-size="7" text-anchor="middle">
+    <circle cx="150" cy="758" r="5" fill="#d97706"/>
+    <line x1="150" y1="753" x2="150" y2="738" stroke="#d97706" stroke-width="1.5"/>
+    <text x="150" y="735" fill="#d97706" font-weight="700">Apr 2025</text>
+    <text x="150" y="770" fill="#374151">$330M SE theft</text>
+    <text x="150" y="779" fill="#374151">elderly US victim</text>
+
+    <circle cx="340" cy="758" r="5" fill="#dc2626"/>
+    <line x1="340" y1="753" x2="340" y2="738" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="340" y="735" fill="#dc2626" font-weight="700">May 2025</text>
+    <text x="340" y="770" fill="#374151">Coinbase insider</text>
+    <text x="340" y="779" fill="#374151">bribed contractors</text>
+
+    <circle cx="530" cy="758" r="5" fill="#dc2626"/>
+    <line x1="530" y1="753" x2="530" y2="738" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="530" y="735" fill="#dc2626" font-weight="700">Jan 2026</text>
+    <text x="530" y="770" fill="#374151">$282M SE theft</text>
+    <text x="530" y="779" fill="#374151">hardware wallet scam</text>
+
+    <circle cx="750" cy="758" r="6" fill="#dc2626" stroke="#1a3a6b" stroke-width="1.5"/>
+    <line x1="750" y1="752" x2="750" y2="734" stroke="#dc2626" stroke-width="2"/>
+    <text x="750" y="731" fill="#dc2626" font-weight="700">Mar 31, 2026</text>
+    <text x="750" y="770" fill="#dc2626" font-weight="700">Kraken — $18.2M</text>
+    <text x="750" y="779" fill="#374151">SE attack flagged</text>
+
+    <circle cx="920" cy="758" r="5" fill="#7c3aed"/>
+    <line x1="920" y1="753" x2="920" y2="738" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="920" y="735" fill="#7c3aed" font-weight="700">Mar 31 +45min</text>
+    <text x="920" y="770" fill="#374151">ZachXBT public</text>
+    <text x="920" y="779" fill="#374151">alert issued</text>
+
+    <circle cx="1100" cy="758" r="5" fill="#d97706"/>
+    <line x1="1100" y1="753" x2="1100" y2="738" stroke="#d97706" stroke-width="1.5"/>
+    <text x="1100" y="735" fill="#d97706" font-weight="700">Mar 31 ongoing</text>
+    <text x="1100" y="770" fill="#374151">Funds continue</text>
+    <text x="1100" y="779" fill="#374151">moving — no freeze</text>
+
+    <circle cx="1280" cy="758" r="5" fill="#374151"/>
+    <line x1="1280" y1="753" x2="1280" y2="738" stroke="#374151" stroke-width="1.5"/>
+    <text x="1280" y="735" fill="#374151" font-weight="700">Today</text>
+    <text x="1280" y="770" fill="#374151">Recovery rate:</text>
+    <text x="1280" y="779" fill="#dc2626" font-weight="700">0.04%</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="800" width="1400" height="20" fill="#1a3a6b"/>
+  <text x="16" y="813" font-size="7" fill="#93c5fd">Author: Phelipe Agnelli — AML &amp; Blockchain Forensics  ·  Sources: ZachXBT · CertiK March 2026 Report · BeInCrypto · CoinDesk · Chainalysis 2026 Crypto Crime Report  ·  ACAMS · FATF</text>
+  <text x="1384" y="813" font-size="7" fill="#93c5fd" text-anchor="end">github.com/PhelipeAgnelli/aml-blockchain-research  ·  AML-IR-2026-005</text>
+</svg>
