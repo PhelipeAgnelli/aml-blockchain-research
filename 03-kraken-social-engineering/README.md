@@ -6,7 +6,7 @@
 
 ---
 
-![Kraken Social Engineering — Attack Flow · AML Analysis · Behavioral Red Flags](./kraken-diagram.svg)
+![Kraken Social Engineering — Attack Flow · AML Analysis · Behavioral Red Flags](./kraken-diagram-1.svg)
 
 ---
 
