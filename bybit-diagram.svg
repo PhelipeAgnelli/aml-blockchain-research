@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Background -->
+  <rect width="1440" height="860" fill="#ffffff"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1440" height="52" fill="#1a3a6b"/>
+  <text x="20" y="20" font-size="11" fill="#ffffff" font-weight="700" letter-spacing="1">CASE STUDY — SUPPLY CHAIN ATTACK &amp; DEX/BRIDGE LAUNDERING AT SCALE</text>
+  <text x="20" y="38" font-size="9.5" fill="#93c5fd">Case AML-IR-2026-006  ·  Bybit  ·  $1.46B stolen  ·  Lazarus Group (DPRK)  ·  February 21, 2025  ·  Largest crypto heist in history</text>
+  <text x="1380" y="30" font-size="8" fill="#93c5fd" text-anchor="end">ACAMS · FATF · BSA/FinCEN · IEEPA · DORA</text>
+
+  <!-- Section title -->
+  <text x="20" y="74" font-size="11" fill="#1a3a6b" font-weight="700">Case Flow Diagram</text>
+  <line x1="20" y1="78" x2="1380" y2="78" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <!-- ARROWS -->
+  <defs>
+    <marker id="arr-red"    markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#dc2626"/></marker>
+    <marker id="arr-orange" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#d97706"/></marker>
+    <marker id="arr-blue"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#1a3a6b"/></marker>
+    <marker id="arr-green"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#059669"/></marker>
+    <marker id="arr-purple" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#7c3aed"/></marker>
+    <marker id="arr-gray"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#6b7280"/></marker>
+  </defs>
+
+  <!-- MAIN TIMELINE -->
+  <line x1="60" y1="420" x2="1380" y2="420" stroke="#1a3a6b" stroke-width="2"/>
+  <text x="20" y="416" font-size="8" fill="#1a3a6b" font-weight="700">Timeline</text>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 1: LAZARUS GROUP / SAFE HACK -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="62" y="380" width="72" height="80" rx="4" fill="#fff0f0" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="98" cy="400" r="12" fill="#dc2626"/>
+  <text x="98" y="405" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">⚠</text>
+  <rect x="68" y="414" width="60" height="34" rx="3" fill="#dc2626"/>
+  <text x="98" y="426" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">LAZARUS</text>
+  <text x="98" y="436" font-size="6" fill="#fff" text-anchor="middle">GROUP · DPRK</text>
+  <text x="98" y="446" font-size="6" fill="#fff" text-anchor="middle">TraderTraitor</text>
+  <text x="98" y="456" font-size="5.5" fill="#fca5a5" text-anchor="middle">APT38 / FBI</text>
+
+  <!-- Lazarus characteristics -->
+  <rect x="14" y="88" width="164" height="220" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="88" width="164" height="18" rx="3" fill="#dc2626"/>
+  <text x="96" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Attack Method</text>
+  <text x="22" y="118" font-size="7.5" fill="#374151">• Compromised Safe{Wallet}</text>
+  <text x="22" y="131" font-size="7.5" fill="#374151">  developer machine</text>
+  <text x="22" y="144" font-size="7.5" fill="#374151">• Injected malicious JS</text>
+  <text x="22" y="157" font-size="7.5" fill="#374151">  into Safe UI frontend</text>
+  <text x="22" y="170" font-size="7.5" fill="#374151">• Bybit signers saw</text>
+  <text x="22" y="183" font-size="7.5" fill="#374151">  legitimate transaction</text>
+  <text x="22" y="196" font-size="7.5" fill="#374151">• CEO Ben Zhou signed</text>
+  <text x="22" y="209" font-size="7.5" fill="#374151">  unknowingly</text>
+  <text x="22" y="226" font-size="7.5" fill="#dc2626" font-weight="700">⚠ Supply chain attack</text>
+  <text x="22" y="238" font-size="7.5" fill="#dc2626" font-weight="700">⚠ UI manipulation</text>
+  <text x="22" y="250" font-size="7.5" fill="#dc2626" font-weight="700">⚠ NOT a direct hack</text>
+  <text x="22" y="267" font-size="7.5" fill="#374151">Test tx: 90 USDT (14:15)</text>
+  <text x="22" y="279" font-size="7.5" fill="#374151">Main tx: 401,347 ETH (14:16)</text>
+  <text x="22" y="291" font-size="7.5" fill="#374151">Alarm: Bybit X post (15:51)</text>
+  <text x="22" y="303" font-size="7.5" fill="#374151">ACAMS 2.1 · FATF R.3/R.7</text>
+  <line x1="98" y1="308" x2="98" y2="380" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 2: BYBIT EXCHANGE            -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="218" y="388" width="68" height="64" rx="4" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1.5"/>
+  <circle cx="252" cy="406" r="10" fill="#1a3a6b"/>
+  <text x="252" y="410" font-size="10" fill="#fff" text-anchor="middle">🏦</text>
+  <rect x="224" y="418" width="56" height="22" rx="3" fill="#1a3a6b"/>
+  <text x="252" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">BYBIT</text>
+  <text x="252" y="440" font-size="6" fill="#6b7280" text-anchor="middle">$1.46B stolen</text>
+  <text x="252" y="450" font-size="6" fill="#059669" text-anchor="middle" font-weight="700">Remained solvent</text>
+
+  <!-- Arrow Lazarus → Bybit -->
+  <line x1="134" y1="420" x2="216" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="138" y="404" width="72" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="174" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">UI manipulation → drain</text>
+
+  <!-- Bybit controls box below -->
+  <rect x="182" y="524" width="174" height="90" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="182" y="524" width="174" height="16" rx="3" fill="#1a3a6b"/>
+  <text x="269" y="535" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">What Bybit Did Right</text>
+  <text x="190" y="552" font-size="7.5" fill="#374151">✓ Immediate transparency (X posts)</text>
+  <text x="190" y="564" font-size="7.5" fill="#374151">✓ Bridge loan in hours (80% covered)</text>
+  <text x="190" y="576" font-size="7.5" fill="#374151">✓ Bounty program ($140M offered)</text>
+  <text x="190" y="588" font-size="7.5" fill="#374151">✓ Fully restored 1:1 in days</text>
+  <text x="190" y="600" font-size="7.5" fill="#374151">✓ Blacklist API published</text>
+  <line x1="252" y1="452" x2="252" y2="524" stroke="#1a3a6b" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 3: DEX SWAPS (stETH → ETH)  -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="364" y="388" width="68" height="64" rx="4" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <circle cx="398" cy="406" r="10" fill="#7c3aed"/>
+  <text x="398" y="410" font-size="10" fill="#fff" text-anchor="middle">🔄</text>
+  <rect x="370" y="418" width="56" height="22" rx="3" fill="#7c3aed"/>
+  <text x="398" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">DEX SWAPS</text>
+  <text x="398" y="440" font-size="6" fill="#6b7280" text-anchor="middle">stETH → ETH</text>
+  <text x="398" y="450" font-size="6" fill="#6b7280" text-anchor="middle">$200M in hours</text>
+
+  <!-- Arrow Bybit → DEX -->
+  <line x1="286" y1="420" x2="362" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="292" y="404" width="64" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="324" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">liquidity swap</text>
+
+  <!-- DEX box -->
+  <rect x="310" y="88" width="184" height="200" rx="3" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="310" y="88" width="184" height="18" rx="3" fill="#7c3aed"/>
+  <text x="402" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Phase 1 — Liquidity Conversion</text>
+  <text x="318" y="118" font-size="7.5" fill="#374151">• stETH / mETH / cmETH swapped</text>
+  <text x="318" y="131" font-size="7.5" fill="#374151">  to plain ETH via DEX (14:29 UTC)</text>
+  <text x="318" y="144" font-size="7.5" fill="#374151">• Batches of ~10,000 tokens</text>
+  <text x="318" y="157" font-size="7.5" fill="#374151">• Uniswap, OKX DEX, Sky Protocol</text>
+  <text x="318" y="174" font-size="7.5" fill="#dc2626" font-weight="700">⚠ BLIND SPOT #1:</text>
+  <text x="318" y="186" font-size="7.5" fill="#374151">$263M went through PancakeSwap</text>
+  <text x="318" y="198" font-size="7.5" fill="#374151">— missed by ALL initial reports.</text>
+  <text x="318" y="210" font-size="7.5" fill="#374151">Only ChainArgos found it weeks later</text>
+  <text x="318" y="227" font-size="7.5" fill="#dc2626" font-weight="700">⚠ BLIND SPOT #2:</text>
+  <text x="318" y="239" font-size="7.5" fill="#374151">"Flood the zone" technique:</text>
+  <text x="318" y="251" font-size="7.5" fill="#374151">High-frequency txs to overwhelm</text>
+  <text x="318" y="263" font-size="7.5" fill="#374151">compliance teams (TRM/FBI confirmed)</text>
+  <text x="318" y="278" font-size="7.5" fill="#374151">FATF VA §5.3 · ACAMS 4.3.3</text>
+  <line x1="398" y1="288" x2="398" y2="388" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 4: THORCHAIN               -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="508" y="380" width="76" height="80" rx="4" fill="#fff0f0" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="546" cy="400" r="14" fill="#dc2626"/>
+  <text x="546" y="405" font-size="14" fill="#fff" text-anchor="middle">🌀</text>
+  <text x="546" y="422" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">THORCHAIN</text>
+  <text x="546" y="432" font-size="6.5" fill="#6b7280" text-anchor="middle">ETH → BTC</text>
+  <text x="546" y="442" font-size="6" fill="#dc2626" text-anchor="middle">$1.2B laundered</text>
+  <text x="546" y="452" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">$5M fees kept</text>
+
+  <!-- Arrow DEX → THORChain -->
+  <line x1="432" y1="420" x2="506" y2="420" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arr-red)"/>
+  <rect x="436" y="404" width="64" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="468" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">ETH → BTC bridge</text>
+
+  <!-- THORChain box -->
+  <rect x="490" y="88" width="186" height="220" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="490" y="88" width="186" height="18" rx="3" fill="#dc2626"/>
+  <text x="583" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">THORChain — The Main Rail</text>
+  <text x="498" y="118" font-size="7.5" fill="#374151">• $1.2B ETH → BTC in 10 days</text>
+  <text x="498" y="131" font-size="7.5" fill="#374151">• 93% of deposits post-hack</text>
+  <text x="498" y="144" font-size="7.5" fill="#374151">  traceable to Lazarus</text>
+  <text x="498" y="157" font-size="7.5" fill="#374151">• $4.66B weekly volume record</text>
+  <text x="498" y="170" font-size="7.5" fill="#374151">• ETH deposits +155% (Feb 23)</text>
+  <text x="498" y="187" font-size="7.5" fill="#dc2626" font-weight="700">⚠ BLIND SPOT #3:</text>
+  <text x="498" y="199" font-size="7.5" fill="#374151">Volume anomaly was detectable</text>
+  <text x="498" y="211" font-size="7.5" fill="#374151">WITHOUT knowing any hacker</text>
+  <text x="498" y="223" font-size="7.5" fill="#374151">address. Pure volume monitoring</text>
+  <text x="498" y="235" font-size="7.5" fill="#374151">could have triggered alert</text>
+  <text x="498" y="251" font-size="7.5" fill="#dc2626" font-weight="700">⚠ BLIND SPOT #4:</text>
+  <text x="498" y="263" font-size="7.5" fill="#374151">THORChain kept $5M in fees</text>
+  <text x="498" y="275" font-size="7.5" fill="#374151">from illicit flows — no refund</text>
+  <text x="498" y="291" font-size="7.5" fill="#374151">FATF VA §5.3 · ACAMS 4.3.3</text>
+  <line x1="546" y1="308" x2="546" y2="380" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- THORChain below -->
+  <rect x="494" y="524" width="178" height="54" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="494" y="524" width="178" height="16" rx="3" fill="#dc2626"/>
+  <text x="583" y="535" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">Volume Anomaly (Red Flag)</text>
+  <text x="502" y="552" font-size="7.5" fill="#374151">Feb 23: ETH deposits +155%</text>
+  <text x="502" y="564" font-size="7.5" fill="#dc2626" font-weight="700">Detectable without tagged addresses</text>
+  <text x="502" y="576" font-size="7.5" fill="#374151">ACAMS 3.1.2 · FATF VA §4.2</text>
+  <line x1="546" y1="460" x2="546" y2="524" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 5: eXch + MIXERS            -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="660" y="388" width="68" height="64" rx="4" fill="#1a1a1a" stroke="#374151" stroke-width="1.5"/>
+  <circle cx="694" cy="406" r="10" fill="#374151"/>
+  <text x="694" y="410" font-size="10" fill="#fff" text-anchor="middle">🕳</text>
+  <rect x="666" y="418" width="56" height="22" rx="3" fill="#1f2937"/>
+  <text x="694" y="430" font-size="6.5" fill="#9ca3af" text-anchor="middle" font-weight="700">eXch + MIXERS</text>
+  <text x="694" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Wasabi · Railgun</text>
+  <text x="694" y="450" font-size="6" fill="#ef4444" text-anchor="middle" font-weight="700">27% "went dark"</text>
+
+  <!-- Arrow THORChain → eXch -->
+  <line x1="584" y1="420" x2="658" y2="420" stroke="#374151" stroke-width="2" marker-end="url(#arr-gray)"/>
+  <rect x="590" y="404" width="62" height="14" rx="2" fill="#f1f5f9" stroke="#374151" stroke-width="0.5"/>
+  <text x="621" y="414" font-size="7" fill="#374151" text-anchor="middle" font-weight="700">$200M → dark</text>
+
+  <!-- eXch box -->
+  <rect x="640" y="88" width="190" height="210" rx="3" fill="#111827" stroke="#374151" stroke-width="1"/>
+  <rect x="640" y="88" width="190" height="18" rx="3" fill="#1f2937"/>
+  <text x="735" y="100" font-size="8" fill="#9ca3af" font-weight="700" text-anchor="middle">eXch + Mixers — The Dark Zone</text>
+  <text x="648" y="118" font-size="7.5" fill="#9ca3af">• eXch: "proudly non-compliant"</text>
+  <text x="648" y="131" font-size="7.5" fill="#9ca3af">• ~$94M via eXch (denied)</text>
+  <text x="648" y="144" font-size="7.5" fill="#9ca3af">• Wasabi + CryptoMixer + Railgun</text>
+  <text x="648" y="157" font-size="7.5" fill="#9ca3af">• Tornado Cash (residual)</text>
+  <text x="648" y="174" font-size="7.5" fill="#ef4444" font-weight="700">⚠ BLIND SPOT #5:</text>
+  <text x="648" y="186" font-size="7.5" fill="#9ca3af">Circle delayed USDC freeze</text>
+  <text x="648" y="198" font-size="7.5" fill="#9ca3af">5 hours after hack confirmed</text>
+  <text x="648" y="210" font-size="7.5" fill="#9ca3af">Tether froze $106K in hours</text>
+  <text x="648" y="222" font-size="7.5" fill="#9ca3af">Circle: $115K frozen (5h later)</text>
+  <text x="648" y="238" font-size="7.5" fill="#ef4444" font-weight="700">⚠ BLIND SPOT #6:</text>
+  <text x="648" y="250" font-size="7.5" fill="#9ca3af">eXch closed May 2025 after</text>
+  <text x="648" y="262" font-size="7.5" fill="#9ca3af">laundering allegations — but</text>
+  <text x="648" y="274" font-size="7.5" fill="#9ca3af">no regulatory action taken</text>
+  <text x="648" y="290" font-size="7.5" fill="#6b7280">FATF R.15 · ACAMS 5.1.1</text>
+  <line x1="694" y1="298" x2="694" y2="388" stroke="#374151" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 6: BTC ADDRESSES (fan-out)   -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="806" y="388" width="68" height="64" rx="4" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="840" cy="406" r="10" fill="#d97706"/>
+  <text x="840" y="410" font-size="10" fill="#fff" text-anchor="middle">₿</text>
+  <rect x="812" y="418" width="56" height="22" rx="3" fill="#d97706"/>
+  <text x="840" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">4,876+ BTC</text>
+  <text x="840" y="440" font-size="6" fill="#6b7280" text-anchor="middle">addresses</text>
+  <text x="840" y="450" font-size="6" fill="#d97706" text-anchor="middle" font-weight="700">77% traceable</text>
+
+  <!-- Arrow eXch → BTC -->
+  <line x1="728" y1="420" x2="804" y2="420" stroke="#d97706" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <rect x="734" y="404" width="64" height="14" rx="2" fill="#fffbeb" stroke="#d97706" stroke-width="0.5"/>
+  <text x="766" y="414" font-size="7" fill="#d97706" text-anchor="middle" font-weight="700">BTC fan-out</text>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 7: OTC / FIAT EXIT          -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="952" y="388" width="68" height="64" rx="4" fill="#f0fdf4" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="986" cy="406" r="10" fill="#059669"/>
+  <text x="986" y="410" font-size="10" fill="#fff" text-anchor="middle">💱</text>
+  <rect x="958" y="418" width="56" height="22" rx="3" fill="#059669"/>
+  <text x="986" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">OTC / P2P</text>
+  <text x="986" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Fiat exit</text>
+  <text x="986" y="450" font-size="6" fill="#059669" text-anchor="middle" font-weight="700">⚡ CHOKEPOINT</text>
+
+  <!-- Arrow BTC → OTC -->
+  <line x1="874" y1="420" x2="950" y2="420" stroke="#d97706" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <rect x="880" y="404" width="64" height="14" rx="2" fill="#fffbeb" stroke="#d97706" stroke-width="0.5"/>
+  <text x="912" y="414" font-size="7" fill="#d97706" text-anchor="middle" font-weight="700">cash conversion</text>
+
+  <!-- OTC / Chokepoint box -->
+  <rect x="832" y="88" width="232" height="220" rx="3" fill="#f0fdf4" stroke="#059669" stroke-width="1"/>
+  <rect x="832" y="88" width="232" height="18" rx="3" fill="#059669"/>
+  <text x="948" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Enforcement Response — What Worked</text>
+  <text x="840" y="118" font-size="7.5" fill="#374151">✓ ZachXBT: "definitive proof" within</text>
+  <text x="840" y="130" font-size="7.5" fill="#374151">  hours via Arkham bounty program</text>
+  <text x="840" y="143" font-size="7.5" fill="#374151">✓ FBI: 51 ETH addresses released</text>
+  <text x="840" y="156" font-size="7.5" fill="#374151">✓ Tether froze $106K immediately</text>
+  <text x="840" y="169" font-size="7.5" fill="#374151">✓ ChangeNOW: intercepted 34 ETH</text>
+  <text x="840" y="182" font-size="7.5" fill="#374151">✓ FixedFloat: froze $120K stables</text>
+  <text x="840" y="195" font-size="7.5" fill="#374151">✓ Binance + Bitget: 50K ETH support</text>
+  <text x="840" y="212" font-size="7.5" fill="#dc2626" font-weight="700">What failed:</text>
+  <text x="840" y="224" font-size="7.5" fill="#374151">✗ Circle: 5h delay on USDC freeze</text>
+  <text x="840" y="237" font-size="7.5" fill="#374151">✗ THORChain: kept $5M in fees</text>
+  <text x="840" y="250" font-size="7.5" fill="#374151">✗ eXch: refused cooperation</text>
+  <text x="840" y="263" font-size="7.5" fill="#374151">✗ No regulatory action on eXch</text>
+  <text x="840" y="280" font-size="7.5" fill="#374151">27% of funds = permanently dark</text>
+  <text x="840" y="292" font-size="7.5" fill="#374151">ACAMS 2.3 · FATF R.20 · BSA SAR</text>
+  <line x1="986" y1="308" x2="986" y2="388" stroke="#059669" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- RIGHT: BLIND SPOTS PANEL          -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="1082" y="88" width="342" height="364" rx="3" fill="#fefce8" stroke="#ca8a04" stroke-width="1.5"/>
+  <rect x="1082" y="88" width="342" height="18" rx="3" fill="#ca8a04"/>
+  <text x="1253" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">6 Blind Spots — What Analysts Missed</text>
+
+  <text x="1090" y="120" font-size="7.5" fill="#ca8a04" font-weight="700">1. PancakeSwap — The Invisible Protocol</text>
+  <text x="1090" y="132" font-size="7" fill="#374151">$263M laundered via PancakeSwap. Zero initial reports</text>
+  <text x="1090" y="143" font-size="7" fill="#374151">mentioned it. ChainArgos found it weeks later.</text>
+
+  <line x1="1090" y1="150" x2="1416" y2="150" stroke="#fef08a" stroke-width="0.8"/>
+  <text x="1090" y="163" font-size="7.5" fill="#ca8a04" font-weight="700">2. "Flood the Zone" as AML Typology</text>
+  <text x="1090" y="175" font-size="7" fill="#374151">Deliberate high-frequency txs to overwhelm compliance</text>
+  <text x="1090" y="186" font-size="7" fill="#374151">teams. TRM/FBI confirmed — never documented as ACAMS</text>
+  <text x="1090" y="197" font-size="7" fill="#374151">typology before this case.</text>
+
+  <line x1="1090" y1="204" x2="1416" y2="204" stroke="#fef08a" stroke-width="0.8"/>
+  <text x="1090" y="217" font-size="7.5" fill="#ca8a04" font-weight="700">3. Volume Anomaly = Address-Free Detection</text>
+  <text x="1090" y="229" font-size="7" fill="#374151">155% ETH deposit spike on THORChain was detectable</text>
+  <text x="1090" y="240" font-size="7" fill="#374151">without a single tagged address. Macro monitoring</text>
+  <text x="1090" y="251" font-size="7" fill="#374151">could have alerted law enforcement 2 days earlier.</text>
+
+  <line x1="1090" y1="258" x2="1416" y2="258" stroke="#fef08a" stroke-width="0.8"/>
+  <text x="1090" y="271" font-size="7.5" fill="#ca8a04" font-weight="700">4. THORChain's $5M Fee Problem</text>
+  <text x="1090" y="283" font-size="7" fill="#374151">Protocol kept $5M in fees from illicit flows. No refund.</text>
+  <text x="1090" y="294" font-size="7" fill="#374151">No regulatory action. Creates perverse incentive for</text>
+  <text x="1090" y="305" font-size="7" fill="#374151">permissionless protocols to remain passive.</text>
+
+  <line x1="1090" y1="312" x2="1416" y2="312" stroke="#fef08a" stroke-width="0.8"/>
+  <text x="1090" y="325" font-size="7.5" fill="#ca8a04" font-weight="700">5. Circle's 5-Hour Freeze Delay</text>
+  <text x="1090" y="337" font-size="7" fill="#374151">Tether froze immediately. Circle waited 5 hours despite</text>
+  <text x="1090" y="348" font-size="7" fill="#374151">having the technical ability to freeze USDC. ZachXBT:</text>
+  <text x="1090" y="359" font-size="7" fill="#374151">"Circle is a bad actor." No regulatory consequence.</text>
+
+  <line x1="1090" y1="366" x2="1416" y2="366" stroke="#fef08a" stroke-width="0.8"/>
+  <text x="1090" y="379" font-size="7.5" fill="#ca8a04" font-weight="700">6. eXch Closed — But No Enforcement</text>
+  <text x="1090" y="391" font-size="7" fill="#374151">eXch announced closure May 2025 under pressure — but</text>
+  <text x="1090" y="402" font-size="7" fill="#374151">no regulatory action, no seizure, no prosecution. Sets</text>
+  <text x="1090" y="413" font-size="7" fill="#374151">dangerous precedent for non-compliant instant exchanges.</text>
+  <text x="1090" y="430" font-size="7.5" fill="#059669" font-weight="700">AML Takeaway: Detection is only as strong as the</text>
+  <text x="1090" y="442" font-size="7.5" fill="#059669" font-weight="700">weakest link in the ecosystem response chain.</text>
+
+  <!-- Arrow OTC → Blind spots -->
+  <line x1="1020" y1="390" x2="1080" y2="250" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-orange)"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- BOTTOM RED FLAGS + RECOMMENDATIONS -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="14" y="578" width="660" height="138" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="578" width="660" height="18" rx="3" fill="#dc2626"/>
+  <text x="344" y="590" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">AML Red Flags — Supply Chain + DEX/Bridge Laundering</text>
+  <g font-size="7.5" fill="#374151">
+    <text x="22" y="610">• Supply chain attack on wallet signing UI — predicate offence confirmed (ACAMS 2.1 · FATF R.3)</text>
+    <text x="22" y="623">• Immediate DEX swap of illiquid tokens (stETH → ETH) within minutes of theft — ACAMS 4.3.3</text>
+    <text x="22" y="636">• Cross-chain bridge anomaly: +155% ETH deposits to THORChain — detectable via volume monitoring</text>
+    <text x="22" y="649">• "Flood the zone": high-frequency txs to overwhelm investigators — new typology 2025</text>
+    <text x="22" y="662">• Fan-out to 4,876+ BTC addresses — creates 4,876 simultaneous investigation trails</text>
+    <text x="22" y="675">• No-KYC instant exchange (eXch) as intermediary — FATF R.15 · ACAMS 5.1.1</text>
+    <text x="22" y="688">• Stablecoin freeze delay (Circle) enabled continued laundering — FATF R.20 obligation</text>
+    <text x="22" y="701" fill="#dc2626" font-weight="700">Frameworks: ACAMS 4.3.3 · FATF VA §5.3 · BSA/FinCEN · IEEPA · DORA · GENIUS Act 2025</text>
+    <text x="22" y="713" fill="#374151">Volume anomaly monitoring is the key gap — blockchain forensics must evolve beyond address tagging</text>
+  </g>
+
+  <!-- Recommendations -->
+  <rect x="686" y="578" width="738" height="138" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="686" y="578" width="738" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="1055" y="590" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Recommendations — What I Would Implement as AML Analyst</text>
+  <g font-size="7.5">
+    <text x="694" y="610" fill="#374151">1. Macro volume monitoring on DEX/bridges: flag any protocol with +50% volume spike vs. 30-day average — no address tagging required</text>
+    <text x="694" y="623" fill="#374151">2. Stablecoin issuer SLA for freeze response: Circle, Tether, and all major issuers should commit to 1-hour freeze response for confirmed theft events</text>
+    <text x="694" y="636" fill="#374151">3. Supply chain audit for all multi-sig wallet providers: Safe{Wallet} compromise shows third-party UI risk — independent audits required annually</text>
+    <text x="694" y="649" fill="#374151">4. "Flood the zone" monitoring rule: unusually high-frequency transactions from new addresses across multiple chains = automatic escalation trigger</text>
+    <text x="694" y="662" fill="#374151">5. No-KYC exchange blacklisting: pre-configured block on all known no-KYC instant exchanges (eXch, FixedFloat etc.) pending individual review</text>
+    <text x="694" y="675" fill="#374151">6. Protocol fee disgorgement standard: any protocol that earns fees from confirmed illicit flows should have a regulatory obligation to escrow and return</text>
+    <text x="694" y="688" fill="#374151">7. Ecosystem-wide bounty coordination: Bybit's $140M bounty worked — standardize bounty programs as AML tool for all major incidents</text>
+    <text x="694" y="701" fill="#059669" font-weight="700">Key insight: 77% of funds remained traceable — blockchain transparency is an AML asset. The gap is coordination speed, not forensic capability.</text>
+    <text x="694" y="713" fill="#374151" font-size="7">ACAMS CAMS 10th Ed. · FATF VA Guidance 2021 · BSA/FinCEN · DORA (EU) · GENIUS Act 2025 · IEEPA</text>
+  </g>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- TIMELINE STRIP                     -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="0" y="728" width="1440" height="72" fill="#f8fafc"/>
+  <rect x="0" y="728" width="1440" height="1" fill="#e2e8f0"/>
+  <text x="20" y="746" font-size="7.5" fill="#1a3a6b" font-weight="700">Chronology:</text>
+  <line x1="100" y1="758" x2="1400" y2="758" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <g font-size="7" text-anchor="middle">
+    <circle cx="140" cy="758" r="5" fill="#dc2626"/>
+    <line x1="140" y1="753" x2="140" y2="738" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="140" y="735" fill="#dc2626" font-weight="700">Feb 21 14:15</text>
+    <text x="140" y="770" fill="#374151">Test tx: 90 USDT</text>
+    <text x="140" y="779" fill="#374151">Attack begins</text>
+
+    <circle cx="290" cy="758" r="6" fill="#dc2626" stroke="#1a3a6b" stroke-width="1.5"/>
+    <line x1="290" y1="752" x2="290" y2="734" stroke="#dc2626" stroke-width="2"/>
+    <text x="290" y="731" fill="#dc2626" font-weight="700">Feb 21 14:16</text>
+    <text x="290" y="770" fill="#dc2626" font-weight="700">401,347 ETH</text>
+    <text x="290" y="779" fill="#374151">$1.46B drained</text>
+
+    <circle cx="440" cy="758" r="5" fill="#7c3aed"/>
+    <line x1="440" y1="753" x2="440" y2="738" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="440" y="735" fill="#7c3aed" font-weight="700">Feb 21 14:29</text>
+    <text x="440" y="770" fill="#374151">DEX swaps begin</text>
+    <text x="440" y="779" fill="#374151">stETH → ETH</text>
+
+    <circle cx="580" cy="758" r="5" fill="#d97706"/>
+    <line x1="580" y1="753" x2="580" y2="738" stroke="#d97706" stroke-width="1.5"/>
+    <text x="580" y="735" fill="#d97706" font-weight="700">Feb 21 15:51</text>
+    <text x="580" y="770" fill="#374151">Bybit confirms</text>
+    <text x="580" y="779" fill="#374151">hack publicly</text>
+
+    <circle cx="720" cy="758" r="5" fill="#dc2626"/>
+    <line x1="720" y1="753" x2="720" y2="738" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="720" y="735" fill="#dc2626" font-weight="700">Feb 23</text>
+    <text x="720" y="770" fill="#374151">THORChain +155%</text>
+    <text x="720" y="779" fill="#dc2626">Volume anomaly</text>
+
+    <circle cx="860" cy="758" r="5" fill="#374151"/>
+    <line x1="860" y1="753" x2="860" y2="738" stroke="#374151" stroke-width="1.5"/>
+    <text x="860" y="735" fill="#374151" font-weight="700">Feb 28</text>
+    <text x="860" y="770" fill="#374151">Circle delays</text>
+    <text x="860" y="779" fill="#dc2626">USDC freeze 5h</text>
+
+    <circle cx="1000" cy="758" r="5" fill="#059669"/>
+    <line x1="1000" y1="753" x2="1000" y2="738" stroke="#059669" stroke-width="1.5"/>
+    <text x="1000" y="735" fill="#059669" font-weight="700">Mar 3, 2025</text>
+    <text x="1000" y="770" fill="#374151">Phase 1 complete</text>
+    <text x="1000" y="779" fill="#374151">All ETH moved</text>
+
+    <circle cx="1140" cy="758" r="5" fill="#dc2626"/>
+    <line x1="1140" y1="753" x2="1140" y2="738" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="1140" y="735" fill="#dc2626" font-weight="700">Apr 2025</text>
+    <text x="1140" y="770" fill="#374151">27% "gone dark"</text>
+    <text x="1140" y="779" fill="#374151">via eXch/Wasabi</text>
+
+    <circle cx="1280" cy="758" r="5" fill="#374151"/>
+    <line x1="1280" y1="753" x2="1280" y2="738" stroke="#374151" stroke-width="1.5"/>
+    <text x="1280" y="735" fill="#374151" font-weight="700">May 2025</text>
+    <text x="1280" y="770" fill="#374151">eXch closes</text>
+    <text x="1280" y="779" fill="#374151">no enforcement</text>
+
+    <circle cx="1380" cy="758" r="5" fill="#374151"/>
+    <line x1="1380" y1="753" x2="1380" y2="738" stroke="#374151" stroke-width="1.5"/>
+    <text x="1380" y="735" fill="#374151" font-weight="700">Today</text>
+    <text x="1380" y="770" fill="#374151">Funds still</text>
+    <text x="1380" y="779" fill="#dc2626">partially dark</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="800" width="1440" height="20" fill="#1a3a6b"/>
+  <text x="16" y="813" font-size="7" fill="#93c5fd">Author: Phelipe Agnelli — AML &amp; Blockchain Forensics  ·  Sources: ZachXBT · TRM Labs · Chainalysis · ChainArgos · Nansen · Crystal Intelligence · FBI PSA · NCC Group  ·  ACAMS · FATF</text>
+  <text x="1384" y="813" font-size="7" fill="#93c5fd" text-anchor="end">github.com/PhelipeAgnelli/aml-blockchain-research  ·  AML-IR-2026-006</text>
+</svg>
