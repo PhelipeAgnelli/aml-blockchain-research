@@ -37,7 +37,8 @@ This is not affiliated with any institution. It's the work of someone who finds 
 | 02 | Tornado Cash — When Code Goes to Trial | May 2026 | Mixer · zk-SNARK · Lazarus Group · Developer Liability | [→ Read](./02-tornado-cash/) |
 | 03 | Kraken — The Human Layer: $18.2M Social Engineering Attack | May 2026 | Social Engineering · THORChain · Behavioral AML · VASP Controls | [→ Read](./03-kraken-social-engineering/) |
 | 04 | Bybit — $1.46B Hack: Six Blind Spots Nobody Covered | May 2026 | Supply Chain Attack · DEX/Bridge · THORChain · PancakeSwap · Flood the Zone | [→ Read](./04-bybit-dex-laundering/) |
-| 05 | *(coming soon)*
+| 05 | Brazil's 2026 Crypto AML Framework — Three Gaps in Practice | May 2026 | COAF · DeCripto · P2P/PIX · BCB Res. 519/520/521 | [→ Read](./05-coaf-brazil/) |
+| 06 | *(coming soon)*
 
 ---
 
