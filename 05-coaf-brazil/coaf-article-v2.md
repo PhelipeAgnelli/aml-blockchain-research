@@ -6,7 +6,7 @@
 
 ---
 
-![Three Gaps in Brazil's 2026 Crypto AML Framework](./coaf-diagram.svg)
+![Three Gaps in Brazil's 2026 Crypto AML Framework](./coaf-diagram-v2.svg)
 
 ---
 
