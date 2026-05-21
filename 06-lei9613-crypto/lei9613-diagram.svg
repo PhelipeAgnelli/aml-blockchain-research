@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Background -->
+  <rect width="1440" height="860" fill="#ffffff"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1440" height="52" fill="#1a3a6b"/>
+  <text x="20" y="20" font-size="11" fill="#ffffff" font-weight="700" letter-spacing="1">REGULATORY FRAMEWORK — LEI 9.613/1998 APPLIED TO CRYPTO: A PRACTITIONER'S GUIDE</text>
+  <text x="20" y="38" font-size="9.5" fill="#93c5fd">Case AML-IR-2026-008  ·  Lei 9.613/1998 + Lei 14.478/2022  ·  BCB Res. 519/520/521  ·  COAF Obligations  ·  Brazil 2026</text>
+  <text x="1380" y="30" font-size="8" fill="#93c5fd" text-anchor="end">ACAMS · FATF · Lei 9.613/1998</text>
+
+  <!-- Section title -->
+  <text x="20" y="74" font-size="11" fill="#1a3a6b" font-weight="700">Compliance Flow — From Transaction to STR: Article-by-Article Application</text>
+  <line x1="20" y1="78" x2="1380" y2="78" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <!-- ARROWS -->
+  <defs>
+    <marker id="arr-red"    markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#dc2626"/></marker>
+    <marker id="arr-blue"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#1a3a6b"/></marker>
+    <marker id="arr-green"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#059669"/></marker>
+    <marker id="arr-orange" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#d97706"/></marker>
+    <marker id="arr-purple" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#7c3aed"/></marker>
+  </defs>
+
+  <!-- MAIN TIMELINE -->
+  <line x1="60" y1="420" x2="1380" y2="420" stroke="#1a3a6b" stroke-width="2"/>
+  <text x="20" y="416" font-size="8" fill="#1a3a6b" font-weight="700">Flow</text>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 1: CUSTOMER / TRANSACTION      -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="62" y="388" width="68" height="64" rx="4" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1.5"/>
+  <circle cx="96" cy="406" r="10" fill="#1a3a6b"/>
+  <text x="96" y="410" font-size="10" fill="#fff" text-anchor="middle">👤</text>
+  <rect x="68" y="418" width="56" height="22" rx="3" fill="#1a3a6b"/>
+  <text x="96" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">CUSTOMER</text>
+  <text x="96" y="440" font-size="6" fill="#6b7280" text-anchor="middle">CPF identified</text>
+  <text x="96" y="450" font-size="6" fill="#1a3a6b" text-anchor="middle" font-weight="700">Art. 9 · Art. 10</text>
+
+  <!-- Customer / Art 9 box -->
+  <rect x="14" y="88" width="164" height="240" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="14" y="88" width="164" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="96" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Art. 9 — Obligated Entity</text>
+  <text x="22" y="118" font-size="7.5" fill="#374151">PSAVs explicitly included by</text>
+  <text x="22" y="130" font-size="7.5" fill="#374151">Lei 14.478/2022 (Marco Legal)</text>
+  <text x="22" y="147" font-size="7.5" fill="#374151" font-weight="700">Full obligations apply:</text>
+  <text x="22" y="159" font-size="7.5" fill="#374151">• KYC all customers (CPF/CNPJ)</text>
+  <text x="22" y="171" font-size="7.5" fill="#374151">• Monitor transactions</text>
+  <text x="22" y="183" font-size="7.5" fill="#374151">• Report suspicious activity</text>
+  <text x="22" y="195" font-size="7.5" fill="#374151">• Keep records 5+ years</text>
+  <text x="22" y="212" font-size="7.5" fill="#dc2626" font-weight="700">Art. 1, §4° — Aggravating factor:</text>
+  <text x="22" y="224" font-size="7.5" fill="#374151">Penalty +1/3 to +2/3 if crime</text>
+  <text x="22" y="236" font-size="7.5" fill="#374151">committed using virtual assets</text>
+  <text x="22" y="248" font-size="7.5" fill="#374151">(Lei 14.478/2022 amendment)</text>
+  <text x="22" y="265" font-size="7.5" fill="#374151">ACAMS 4.1 · FATF R.10</text>
+  <text x="22" y="277" font-size="7.5" fill="#374151">BCB Res. 519/2025</text>
+  <text x="22" y="289" font-size="7.5" fill="#374151">Lei 9.613/1998 Art. 9</text>
+  <line x1="96" y1="328" x2="96" y2="388" stroke="#1a3a6b" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 2: PSAV (Exchange)             -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="230" y="388" width="70" height="64" rx="4" fill="#f0fdf4" stroke="#059669" stroke-width="2"/>
+  <circle cx="265" cy="406" r="10" fill="#059669"/>
+  <text x="265" y="410" font-size="10" fill="#fff" text-anchor="middle">🏦</text>
+  <rect x="236" y="418" width="58" height="22" rx="3" fill="#059669"/>
+  <text x="265" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">PSAV</text>
+  <text x="265" y="440" font-size="6" fill="#6b7280" text-anchor="middle">BCB authorized</text>
+  <text x="265" y="450" font-size="6" fill="#059669" text-anchor="middle" font-weight="700">Art. 10 duties</text>
+
+  <!-- Arrow Customer → PSAV -->
+  <line x1="130" y1="420" x2="228" y2="420" stroke="#1a3a6b" stroke-width="2" marker-end="url(#arr-blue)"/>
+  <rect x="136" y="404" width="86" height="14" rx="2" fill="#eff6ff" stroke="#1a3a6b" stroke-width="0.5"/>
+  <text x="179" y="414" font-size="7" fill="#1a3a6b" text-anchor="middle" font-weight="700">KYC + transaction</text>
+
+  <!-- Art 10 box -->
+  <rect x="194" y="88" width="178" height="240" rx="3" fill="#f0fdf4" stroke="#059669" stroke-width="1"/>
+  <rect x="194" y="88" width="178" height="18" rx="3" fill="#059669"/>
+  <text x="283" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Art. 10 — Record-Keeping</text>
+  <text x="202" y="118" font-size="7.5" fill="#374151" font-weight="700">Minimum 5-year retention:</text>
+  <text x="202" y="130" font-size="7.5" fill="#374151">• Customer CPF/CNPJ + KYC docs</text>
+  <text x="202" y="142" font-size="7.5" fill="#374151">• On-chain address used</text>
+  <text x="202" y="154" font-size="7.5" fill="#374151">• Counterparty address</text>
+  <text x="202" y="166" font-size="7.5" fill="#374151">• Transaction ID (TXID)</text>
+  <text x="202" y="178" font-size="7.5" fill="#374151">• Blockchain network</text>
+  <text x="202" y="190" font-size="7.5" fill="#374151">• BRL value (BCB PTAX rate)</text>
+  <text x="202" y="202" font-size="7.5" fill="#374151">• Analytics risk score</text>
+  <text x="202" y="214" font-size="7.5" fill="#374151">• Self-hosted wallet ID (BCB 521)</text>
+  <text x="202" y="231" font-size="7.5" fill="#059669" font-weight="700">✓ Blockchain audit advantage:</text>
+  <text x="202" y="243" font-size="7.5" fill="#374151">On-chain data is immutable —</text>
+  <text x="202" y="255" font-size="7.5" fill="#374151">regulators can verify records</text>
+  <text x="202" y="267" font-size="7.5" fill="#374151">against blockchain reality</text>
+  <text x="202" y="283" font-size="7.5" fill="#374151">ACAMS 5.2 · FATF R.11</text>
+  <text x="202" y="295" font-size="7.5" fill="#374151">Lei 9.613/1998 Art. 10</text>
+  <line x1="265" y1="328" x2="265" y2="388" stroke="#059669" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 3: ALERT / MONITORING          -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="402" y="388" width="70" height="64" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="437" cy="406" r="10" fill="#d97706"/>
+  <text x="437" y="410" font-size="10" fill="#fff" text-anchor="middle">🔔</text>
+  <rect x="408" y="418" width="58" height="22" rx="3" fill="#d97706"/>
+  <text x="437" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">TMS ALERT</text>
+  <text x="437" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Transaction monitor</text>
+  <text x="437" y="450" font-size="6" fill="#d97706" text-anchor="middle" font-weight="700">24h clock starts</text>
+
+  <!-- Arrow PSAV → Alert -->
+  <line x1="300" y1="420" x2="400" y2="420" stroke="#d97706" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <rect x="306" y="404" width="88" height="14" rx="2" fill="#fffbeb" stroke="#d97706" stroke-width="0.5"/>
+  <text x="350" y="414" font-size="7" fill="#d97706" text-anchor="middle" font-weight="700">suspicious pattern detected</text>
+
+  <!-- Alert / Art 11 box -->
+  <rect x="376" y="88" width="196" height="260" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+  <rect x="376" y="88" width="196" height="18" rx="3" fill="#d97706"/>
+  <text x="474" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Art. 11 — 24-Hour Window</text>
+  <text x="384" y="118" font-size="7.5" fill="#374151" font-weight="700">Clock starts: analyst concludes</text>
+  <text x="384" y="130" font-size="7.5" fill="#374151">suspicion — NOT at transaction</text>
+  <text x="384" y="147" font-size="7.5" fill="#374151" font-weight="700">Workflow:</text>
+  <text x="384" y="159" font-size="7.5" fill="#374151">1. Alert generated (TMS)</text>
+  <text x="384" y="171" font-size="7.5" fill="#374151">2. Analyst reviews alert ← START</text>
+  <text x="384" y="183" font-size="7.5" fill="#374151">3. On-chain investigation</text>
+  <text x="384" y="195" font-size="7.5" fill="#374151">4. Analyst concludes suspicion</text>
+  <text x="384" y="207" font-size="7.5" fill="#374151">5. File STR within 24h of step 4</text>
+  <text x="384" y="224" font-size="7.5" fill="#dc2626" font-weight="700">Art. 11, §2° — Tipping-off:</text>
+  <text x="384" y="236" font-size="7.5" fill="#374151">Cannot alert customer that</text>
+  <text x="384" y="248" font-size="7.5" fill="#374151">STR is being filed — criminal</text>
+  <text x="384" y="260" font-size="7.5" fill="#374151">offense if violated</text>
+  <text x="384" y="272" font-size="7.5" fill="#374151">Operational actions (freeze,</text>
+  <text x="384" y="284" font-size="7.5" fill="#374151">delay) must not reveal STR</text>
+  <text x="384" y="300" font-size="7.5" fill="#374151">ACAMS 7.2 · FATF R.20</text>
+  <text x="384" y="312" font-size="7.5" fill="#374151">Lei 9.613/1998 Art. 11</text>
+  <line x1="437" y1="348" x2="437" y2="388" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Alert below timeline -->
+  <rect x="376" y="524" width="196" height="80" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+  <rect x="376" y="524" width="196" height="16" rx="3" fill="#d97706"/>
+  <text x="474" y="535" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">Crypto-Specific Red Flags</text>
+  <text x="384" y="552" font-size="7.5" fill="#374151">• Funds from mixer/bridge exposure</text>
+  <text x="384" y="564" font-size="7.5" fill="#374151">• Self-hosted wallet, immediate transfer</text>
+  <text x="384" y="576" font-size="7.5" fill="#374151">• Velocity change vs. customer profile</text>
+  <text x="384" y="588" font-size="7.5" fill="#374151">• P2P aggregation pattern (multi-PIX)</text>
+  <text x="384" y="600" font-size="7.5" fill="#dc2626" font-weight="700">ACAMS 5.2 · BCB Res. 521</text>
+  <line x1="437" y1="452" x2="437" y2="524" stroke="#d97706" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 4: ANALYST REVIEW              -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="574" y="388" width="70" height="64" rx="4" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <circle cx="609" cy="406" r="10" fill="#7c3aed"/>
+  <text x="609" y="410" font-size="10" fill="#fff" text-anchor="middle">🔍</text>
+  <rect x="580" y="418" width="58" height="22" rx="3" fill="#7c3aed"/>
+  <text x="609" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">ANALYST</text>
+  <text x="609" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Investigation</text>
+  <text x="609" y="450" font-size="6" fill="#7c3aed" text-anchor="middle" font-weight="700">On-chain review</text>
+
+  <!-- Arrow Alert → Analyst -->
+  <line x1="472" y1="420" x2="572" y2="420" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple)"/>
+  <rect x="478" y="404" width="88" height="14" rx="2" fill="#f5f0ff" stroke="#7c3aed" stroke-width="0.5"/>
+  <text x="522" y="414" font-size="7" fill="#7c3aed" text-anchor="middle" font-weight="700">escalated for review</text>
+
+  <!-- Analyst box -->
+  <rect x="554" y="88" width="196" height="260" rx="3" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="554" y="88" width="196" height="18" rx="3" fill="#7c3aed"/>
+  <text x="652" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Investigation — STR Content</text>
+  <text x="562" y="118" font-size="7.5" fill="#374151" font-weight="700">Section 1 — Customer ID</text>
+  <text x="562" y="130" font-size="7.5" fill="#374151">CPF/CNPJ, KYC tier, PEP status</text>
+  <text x="562" y="146" font-size="7.5" fill="#374151" font-weight="700">Section 2 — Transaction data</text>
+  <text x="562" y="158" font-size="7.5" fill="#374151">Date, BRL value, TXID, blockchain</text>
+  <text x="562" y="170" font-size="7.5" fill="#374151">Origin + destination addresses</text>
+  <text x="562" y="186" font-size="7.5" fill="#374151" font-weight="700">Section 3 — On-chain analysis</text>
+  <text x="562" y="198" font-size="7.5" fill="#374151">Risk score, flagged exposures</text>
+  <text x="562" y="210" font-size="7.5" fill="#374151">Behavioral pattern description</text>
+  <text x="562" y="226" font-size="7.5" fill="#374151" font-weight="700">Section 4 — Red flags</text>
+  <text x="562" y="238" font-size="7.5" fill="#374151">ACAMS typology codes</text>
+  <text x="562" y="254" font-size="7.5" fill="#374151" font-weight="700">Section 5 — Actions taken</text>
+  <text x="562" y="266" font-size="7.5" fill="#374151">Processed / held / reversed</text>
+  <text x="562" y="282" font-size="7.5" fill="#374151" font-weight="700">Section 6 — Analyst declaration</text>
+  <text x="562" y="294" font-size="7.5" fill="#374151">Name, date, signature</text>
+  <text x="562" y="310" font-size="7.5" fill="#374151">Lei 9.613/1998 Art. 11</text>
+  <text x="562" y="322" font-size="7.5" fill="#374151">FATF R.20 · ACAMS 7.3</text>
+  <line x1="609" y1="348" x2="609" y2="388" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 5: STR → COAF                  -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="748" y="388" width="70" height="64" rx="4" fill="#fff8f8" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="783" cy="406" r="10" fill="#dc2626"/>
+  <text x="783" y="410" font-size="10" fill="#fff" text-anchor="middle">📤</text>
+  <rect x="754" y="418" width="58" height="22" rx="3" fill="#dc2626"/>
+  <text x="783" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">STR → COAF</text>
+  <text x="783" y="440" font-size="6" fill="#6b7280" text-anchor="middle">SISCOAF</text>
+  <text x="783" y="450" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">within 24 hours</text>
+
+  <!-- Arrow Analyst → STR -->
+  <line x1="644" y1="420" x2="746" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="650" y="404" width="90" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="695" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">file STR — Art. 11</text>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- ACTOR 6: ART. 12 SANCTIONS           -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="922" y="388" width="70" height="64" rx="4" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="957" cy="406" r="10" fill="#ca8a04"/>
+  <text x="957" y="410" font-size="10" fill="#fff" text-anchor="middle">⚖</text>
+  <rect x="928" y="418" width="58" height="22" rx="3" fill="#ca8a04"/>
+  <text x="957" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">ART. 12</text>
+  <text x="957" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Sanctions</text>
+  <text x="957" y="450" font-size="6" fill="#ca8a04" text-anchor="middle" font-weight="700">Personal liability</text>
+
+  <!-- Arrow STR → Sanctions (if non-compliant) -->
+  <line x1="818" y1="420" x2="920" y2="420" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-orange)"/>
+  <rect x="824" y="404" width="90" height="14" rx="2" fill="#fefce8" stroke="#ca8a04" stroke-width="0.5"/>
+  <text x="869" y="414" font-size="7" fill="#ca8a04" text-anchor="middle" font-weight="700">if non-compliant</text>
+
+  <!-- Sanctions box -->
+  <rect x="830" y="88" width="234" height="260" rx="3" fill="#fefce8" stroke="#ca8a04" stroke-width="1"/>
+  <rect x="830" y="88" width="234" height="18" rx="3" fill="#ca8a04"/>
+  <text x="947" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Art. 12 — Sanctions + Personal Liability</text>
+  <text x="838" y="118" font-size="7.5" fill="#374151" font-weight="700">Administrative sanctions:</text>
+  <text x="838" y="130" font-size="7.5" fill="#374151">• Advertência (warning)</text>
+  <text x="838" y="142" font-size="7.5" fill="#374151">• Multa: up to R$200K or</text>
+  <text x="838" y="154" font-size="7.5" fill="#374151">  200% of transaction value</text>
+  <text x="838" y="166" font-size="7.5" fill="#374151">• Inabilitação: up to 10 years</text>
+  <text x="838" y="178" font-size="7.5" fill="#374151">  (management disqualification)</text>
+  <text x="838" y="190" font-size="7.5" fill="#374151">• Cassação: license revocation</text>
+  <text x="838" y="207" font-size="7.5" fill="#dc2626" font-weight="700">Personal liability applies to:</text>
+  <text x="838" y="219" font-size="7.5" fill="#374151">Directors + compliance officers</text>
+  <text x="838" y="231" font-size="7.5" fill="#374151">Not just the institution</text>
+  <text x="838" y="248" font-size="7.5" fill="#374151" font-weight="700">Track record (to Jun 2025):</text>
+  <text x="838" y="260" font-size="7.5" fill="#374151">678 proceedings · R$234M fines</text>
+  <text x="838" y="276" font-size="7.5" fill="#374151" font-weight="700">Protection: document everything</text>
+  <text x="838" y="288" font-size="7.5" fill="#374151">Every STR decision — including</text>
+  <text x="838" y="300" font-size="7.5" fill="#374151">decisions NOT to file — recorded</text>
+  <text x="838" y="316" font-size="7.5" fill="#374151">ACAMS 7.4 · Lei 9.613 Art. 12</text>
+  <line x1="957" y1="348" x2="957" y2="388" stroke="#ca8a04" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- AGGRAVATING FACTOR PANEL             -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="1084" y="88" width="340" height="364" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="1084" y="88" width="340" height="18" rx="3" fill="#dc2626"/>
+  <text x="1254" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Art. 1, §4° — Crypto Aggravating Factor (Lei 14.478/2022)</text>
+
+  <text x="1092" y="120" font-size="7.5" fill="#dc2626" font-weight="700">What the law says:</text>
+  <text x="1092" y="132" font-size="7.5" fill="#374151">Penalty increased +1/3 to +2/3 if money</text>
+  <text x="1092" y="144" font-size="7.5" fill="#374151">laundering committed using virtual assets</text>
+  <line x1="1092" y1="152" x2="1416" y2="152" stroke="#fee2e2" stroke-width="0.8"/>
+
+  <text x="1092" y="166" font-size="7.5" fill="#dc2626" font-weight="700">Why it matters for documentation:</text>
+  <text x="1092" y="178" font-size="7.5" fill="#374151">Cases involving crypto layering need</text>
+  <text x="1092" y="190" font-size="7.5" fill="#374151">higher documentation standard —</text>
+  <text x="1092" y="202" font-size="7.5" fill="#374151">must anticipate criminal proceedings</text>
+  <line x1="1092" y1="210" x2="1416" y2="210" stroke="#fee2e2" stroke-width="0.8"/>
+
+  <text x="1092" y="224" font-size="7.5" fill="#dc2626" font-weight="700">Higher standard requires:</text>
+  <text x="1092" y="236" font-size="7.5" fill="#374151">• Complete on-chain evidence trail</text>
+  <text x="1092" y="248" font-size="7.5" fill="#374151">• Explicit analytics methodology</text>
+  <text x="1092" y="260" font-size="7.5" fill="#374151">• Preserved analytics output</text>
+  <text x="1092" y="272" font-size="7.5" fill="#374151">• Predicate offence connection</text>
+  <text x="1092" y="284" font-size="7.5" fill="#374151">  documented where identifiable</text>
+  <line x1="1092" y1="292" x2="1416" y2="292" stroke="#fee2e2" stroke-width="0.8"/>
+
+  <text x="1092" y="306" font-size="7.5" fill="#dc2626" font-weight="700">Hybrid structuring — new red flag:</text>
+  <text x="1092" y="318" font-size="7.5" fill="#374151">Sophisticated actors may use crypto</text>
+  <text x="1092" y="330" font-size="7.5" fill="#374151">only for part of the laundering chain</text>
+  <text x="1092" y="342" font-size="7.5" fill="#374151">to avoid the aggravating factor</text>
+  <text x="1092" y="354" font-size="7.5" fill="#374151">while using TradFi for other phases</text>
+  <line x1="1092" y1="362" x2="1416" y2="362" stroke="#fee2e2" stroke-width="0.8"/>
+
+  <text x="1092" y="376" font-size="7.5" fill="#374151" font-weight="700">Lei 9.613/1998 Art. 1, §4°</text>
+  <text x="1092" y="388" font-size="7.5" fill="#374151">Added by Lei 14.478/2022 Art. 12</text>
+  <text x="1092" y="400" font-size="7.5" fill="#374151">ACAMS 2.1 · FATF R.3</text>
+  <text x="1092" y="416" font-size="7.5" fill="#059669" font-weight="700">Practitioner takeaway:</text>
+  <text x="1092" y="428" font-size="7.5" fill="#059669">"When crypto is involved, document</text>
+  <text x="1092" y="440" font-size="7.5" fill="#059669">as if prosecutors will read it."</text>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- BOTTOM: ARTICLE SUMMARY TABLE        -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="14" y="618" width="1060" height="100" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1"/>
+  <rect x="14" y="618" width="1060" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="544" y="630" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Quick Reference — Lei 9.613/1998 Articles for Crypto Analysts</text>
+
+  <!-- Table headers -->
+  <g font-size="7.5" font-weight="700" fill="#1a3a6b">
+    <text x="22" y="652">Article</text>
+    <text x="120" y="652">Core Obligation</text>
+    <text x="420" y="652">Crypto-Specific Application</text>
+    <text x="820" y="652">Risk if Non-Compliant</text>
+  </g>
+  <line x1="14" y1="656" x2="1074" y2="656" stroke="#e2e8f0" stroke-width="0.8"/>
+
+  <g font-size="7" fill="#374151">
+    <text x="22" y="669">Art. 9</text>
+    <text x="120" y="669">PSAV is obligated entity</text>
+    <text x="420" y="669">Full KYC, monitoring, STR obligations — Lei 14.478/2022</text>
+    <text x="820" y="669">Art. 12 sanctions</text>
+
+    <text x="22" y="682">Art. 10</text>
+    <text x="120" y="682">5-year record retention</text>
+    <text x="420" y="682">TXID + addresses + analytics output + BRL value</text>
+    <text x="820" y="682">Multa up to R$200K</text>
+
+    <text x="22" y="695">Art. 11</text>
+    <text x="120" y="695">24h STR reporting</text>
+    <text x="420" y="695">Clock starts at analyst conclusion — not at transaction</text>
+    <text x="820" y="695">Multa + inabilitação</text>
+
+    <text x="22" y="708">Art. 11, §2°</text>
+    <text x="120" y="708">Tipping-off prohibition</text>
+    <text x="420" y="708">Operational actions must not reveal STR to customer</text>
+    <text x="820" y="708">Criminal offense</text>
+
+    <text x="22" y="721">Art. 12</text>
+    <text x="120" y="721">Personal liability</text>
+    <text x="420" y="721">Directors + officers — document every decision</text>
+    <text x="820" y="721">10yr disqualification + cassação</text>
+  </g>
+
+  <!-- Recommendations panel -->
+  <rect x="1086" y="618" width="338" height="100" rx="3" fill="#f0fdf4" stroke="#059669" stroke-width="1"/>
+  <rect x="1086" y="618" width="338" height="18" rx="3" fill="#059669"/>
+  <text x="1255" y="630" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">3 Practitioner Rules</text>
+  <g font-size="7.5" fill="#374151">
+    <text x="1094" y="650">1. 24h clock = workflow discipline. Design alert review</text>
+    <text x="1094" y="662">   process with documented timestamps.</text>
+    <text x="1094" y="676">2. Personal liability = document everything, including</text>
+    <text x="1094" y="688">   decisions NOT to file STR.</text>
+    <text x="1094" y="702">3. Crypto aggravating factor = document as if</text>
+    <text x="1094" y="714">   prosecutors will read it.</text>
+  </g>
+
+  <!-- ════════════════════════════════════ -->
+  <!-- TIMELINE STRIP                       -->
+  <!-- ════════════════════════════════════ -->
+  <rect x="0" y="728" width="1440" height="72" fill="#f8fafc"/>
+  <rect x="0" y="728" width="1440" height="1" fill="#e2e8f0"/>
+  <text x="20" y="746" font-size="7.5" fill="#1a3a6b" font-weight="700">Legislative Timeline:</text>
+  <line x1="100" y1="758" x2="1400" y2="758" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <g font-size="7" text-anchor="middle">
+    <circle cx="160" cy="758" r="5" fill="#374151"/>
+    <line x1="160" y1="753" x2="160" y2="738" stroke="#374151" stroke-width="1"/>
+    <text x="160" y="735" fill="#374151">Mar 1998</text>
+    <text x="160" y="770" fill="#374151">Lei 9.613/1998</text>
+    <text x="160" y="779" fill="#374151">AML law + COAF created</text>
+
+    <circle cx="400" cy="758" r="5" fill="#374151"/>
+    <line x1="400" y1="753" x2="400" y2="738" stroke="#374151" stroke-width="1"/>
+    <text x="400" y="735" fill="#374151">Jul 2012</text>
+    <text x="400" y="770" fill="#374151">Lei 12.683/2012</text>
+    <text x="400" y="779" fill="#374151">Major reform + expansion</text>
+
+    <circle cx="640" cy="758" r="6" fill="#059669" stroke="#1a3a6b" stroke-width="1.5"/>
+    <line x1="640" y1="752" x2="640" y2="734" stroke="#059669" stroke-width="2"/>
+    <text x="640" y="731" fill="#059669" font-weight="700">Dec 2022</text>
+    <text x="640" y="770" fill="#059669" font-weight="700">Lei 14.478/2022</text>
+    <text x="640" y="779" fill="#374151">PSAVs included + aggravating factor</text>
+
+    <circle cx="880" cy="758" r="5" fill="#d97706"/>
+    <line x1="880" y1="753" x2="880" y2="738" stroke="#d97706" stroke-width="1"/>
+    <text x="880" y="735" fill="#d97706">Nov 2025</text>
+    <text x="880" y="770" fill="#374151">BCB Res. 519/520/521</text>
+    <text x="880" y="779" fill="#374151">Operational framework for PSAVs</text>
+
+    <circle cx="1120" cy="758" r="5" fill="#dc2626"/>
+    <line x1="1120" y1="753" x2="1120" y2="738" stroke="#dc2626" stroke-width="1"/>
+    <text x="1120" y="735" fill="#dc2626">Feb 2026</text>
+    <text x="1120" y="770" fill="#374151">Full framework live</text>
+    <text x="1120" y="779" fill="#dc2626">Art. 9/10/11/12 fully active for PSAVs</text>
+
+    <circle cx="1340" cy="758" r="5" fill="#374151"/>
+    <line x1="1340" y1="753" x2="1340" y2="738" stroke="#374151" stroke-width="1"/>
+    <text x="1340" y="735" fill="#374151">Jul 2026</text>
+    <text x="1340" y="770" fill="#374151">DeCripto mandatory</text>
+    <text x="1340" y="779" fill="#374151">Full reporting ecosystem active</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="800" width="1440" height="20" fill="#1a3a6b"/>
+  <text x="16" y="813" font-size="7" fill="#93c5fd">Author: Phelipe Agnelli — AML &amp; Blockchain Forensics  ·  Sources: Lei 9.613/1998 · Lei 14.478/2022 · BCB Res. 519/520/521 · COAF FAQ · Migalhas  ·  ACAMS · FATF  ·  AML-IR-2026-008</text>
+  <text x="1424" y="813" font-size="7" fill="#93c5fd" text-anchor="end">github.com/PhelipeAgnelli/aml-blockchain-research</text>
+</svg>
