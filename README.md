@@ -38,7 +38,8 @@ This is not affiliated with any institution. It's the work of someone who finds 
 | 03 | Kraken — The Human Layer: $18.2M Social Engineering Attack | May 2026 | Social Engineering · THORChain · Behavioral AML · VASP Controls | [→ Read](./03-kraken-social-engineering/) |
 | 04 | Bybit — $1.46B Hack: Six Blind Spots Nobody Covered | May 2026 | Supply Chain Attack · DEX/Bridge · THORChain · PancakeSwap · Flood the Zone | [→ Read](./04-bybit-dex-laundering/) |
 | 05 | Brazil's 2026 Crypto AML Framework — Three Gaps in Practice | May 2026 | COAF · DeCripto · P2P/PIX · BCB Res. 519/520/521 | [→ Read](./05-coaf-brazil/) |
-| 06 | *(coming soon)*
+| 06 | Applying Brazil's AML Law to Crypto — Lei 9.613/1998 Practitioner's Guide | May 2026 | Lei 9.613 · Art. 11 · STR · Personal Liability · Crypto Aggravating Factor | [→ Read](./06-lei9613-crypto/) |
+| 07 | *(coming soon)*
 
 ---
 
