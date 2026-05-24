@@ -18,7 +18,7 @@ This is not affiliated with any institution. It's the work of someone who finds 
 
 ## Background
 
-- 🎓 Graduated in Blockchain, Cryptocurrencies & Digital Finance — Anhanguera University
+- 🎓 Technology Degree in Blockchain, Cryptocurrencies & Digital Finance
 - 📜 ACAMS — Enhancing Financial Inclusion with a Risk-Based Approach (2026)
 - 📜 ENAP — Prevention of Money Laundering and Terrorist Financing (2026)
 - 📜 Basel Institute on Governance — OSINT, STR Analysis, Fund Flow Visualization, Counter-Terrorist Financing (2026)
