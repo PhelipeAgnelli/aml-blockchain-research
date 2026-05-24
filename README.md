@@ -21,7 +21,7 @@ This is not affiliated with any institution. It's the work of someone who finds 
 - 🎓 Technology Degree in Blockchain, Cryptocurrencies & Digital Finance
 - 📜 ACAMS — Enhancing Financial Inclusion with a Risk-Based Approach (2026)
 - 📜 ENAP — Prevention of Money Laundering and Terrorist Financing (2026)
-- 📜 Basel Institute on Governance — OSINT, STR Analysis, Fund Flow Visualization, Counter-Terrorist Financing (2026)
+- 📜 Basel Institute on Governance — OSINT, STR Analysis, Fund Flow Visualization, Source of Funds Analysis, Counter-Terrorist Financing (2026)
 - 📜 Saylor University — CS120: Bitcoin for Developers I, grade 100% (2026)
 - 💼 Former IBM Brasil — Production Control Analyst (2007–2009)
 - 🌎 Former IBM Poughkeepsie, NY — Account transition project (2007)
