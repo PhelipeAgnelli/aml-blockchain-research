@@ -6,7 +6,7 @@
 
 ## About
 
-I'm **Phelipe Agnelli**, an analyst based in Brazil with a background in IT operations and a growing focus on Anti-Money Laundering and blockchain forensics.
+I'm **Phelipe Agnelli**, an analyst based in Brazil with a background in performance, public speaking, and digital finance — including a TEDx talk at TEDx Belo Horizonte and a growing focus on Anti-Money Laundering and blockchain forensics.
 
 This repository is a personal research project — driven by curiosity and a genuine interest in understanding how financial crime works, how it's detected, and how it fails. Every case studied here is based entirely on **public data**: open blockchain explorers, official law enforcement press releases, and open-source intelligence tools.
 
@@ -18,7 +18,7 @@ This is not affiliated with any institution. It's the work of someone who finds 
 
 ## Background
 
-- 🎓 Graduating in Blockchain, Cryptocurrencies & Digital Finance — Anhanguera University
+- 🎓 Graduated in Blockchain, Cryptocurrencies & Digital Finance — Anhanguera University
 - 📜 ACAMS — Enhancing Financial Inclusion with a Risk-Based Approach (2026)
 - 📜 ENAP — Prevention of Money Laundering and Terrorist Financing (2026)
 - 📜 Basel Institute on Governance — OSINT, STR Analysis, Fund Flow Visualization, Counter-Terrorist Financing (2026)
