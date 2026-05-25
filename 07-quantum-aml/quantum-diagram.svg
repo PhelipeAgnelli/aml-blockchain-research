@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Background -->
+  <rect width="1440" height="860" fill="#ffffff"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1440" height="52" fill="#1a3a6b"/>
+  <text x="20" y="20" font-size="11" fill="#ffffff" font-weight="700" letter-spacing="1">FORENSIC RISK ANALYSIS — QUANTUM COMPUTING AND AML EVIDENCE INTEGRITY</text>
+  <text x="20" y="38" font-size="9.5" fill="#93c5fd">Case AML-IR-2026-009  ·  BIP-360/361  ·  PACTs  ·  AmericanFortress  ·  HNDL Risk  ·  NIST FIPS 205  ·  May 2026</text>
+  <text x="1380" y="30" font-size="8" fill="#93c5fd" text-anchor="end">ACAMS · FATF · NIST PQC · Lei 9.613/1998</text>
+
+  <!-- Section title -->
+  <text x="20" y="74" font-size="11" fill="#1a3a6b" font-weight="700">When Quantum Breaks the Chain — Impact on AML Forensics and Evidence Standards</text>
+  <line x1="20" y1="78" x2="1380" y2="78" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <!-- ARROWS -->
+  <defs>
+    <marker id="arr-red"    markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#dc2626"/></marker>
+    <marker id="arr-blue"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#1a3a6b"/></marker>
+    <marker id="arr-green"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#059669"/></marker>
+    <marker id="arr-orange" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#d97706"/></marker>
+    <marker id="arr-purple" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#7c3aed"/></marker>
+    <marker id="arr-gray"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#6b7280"/></marker>
+  </defs>
+
+  <!-- MAIN TIMELINE -->
+  <line x1="60" y1="420" x2="1380" y2="420" stroke="#1a3a6b" stroke-width="2"/>
+  <text x="20" y="416" font-size="8" fill="#1a3a6b" font-weight="700">Timeline</text>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 1: QUANTUM COMPUTER THREAT   -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="62" y="380" width="76" height="80" rx="4" fill="#fff0f0" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="100" cy="400" r="14" fill="#dc2626"/>
+  <text x="100" y="406" font-size="14" fill="#fff" text-anchor="middle">⚛</text>
+  <rect x="68" y="416" width="64" height="32" rx="3" fill="#dc2626"/>
+  <text x="100" y="428" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">QUANTUM</text>
+  <text x="100" y="438" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">COMPUTER</text>
+  <text x="100" y="448" font-size="6" fill="#fca5a5" text-anchor="middle">Shor's Algorithm</text>
+  <text x="100" y="456" font-size="5.5" fill="#fca5a5" text-anchor="middle">2029-2031 est.</text>
+
+  <!-- Quantum threat box -->
+  <rect x="14" y="88" width="170" height="250" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="88" width="170" height="18" rx="3" fill="#dc2626"/>
+  <text x="99" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">The Quantum Threat</text>
+  <text x="22" y="118" font-size="7.5" fill="#374151" font-weight="700">What breaks:</text>
+  <text x="22" y="130" font-size="7.5" fill="#374151">• ECDSA signatures (Shor's)</text>
+  <text x="22" y="142" font-size="7.5" fill="#374151">• Private key from public key</text>
+  <text x="22" y="154" font-size="7.5" fill="#374151">• P2PK addresses (exposed)</text>
+  <text x="22" y="171" font-size="7.5" fill="#059669" font-weight="700">What does NOT break:</text>
+  <text x="22" y="183" font-size="7.5" fill="#374151">• SHA-256 mining (10²³ qubits)</text>
+  <text x="22" y="195" font-size="7.5" fill="#374151">• AES-256 data encryption</text>
+  <text x="22" y="207" font-size="7.5" fill="#374151">• What's recorded on blockchain</text>
+  <text x="22" y="224" font-size="7.5" fill="#dc2626" font-weight="700">2026 milestones:</text>
+  <text x="22" y="236" font-size="7.5" fill="#374151">Mar: Google — &lt;1,200 qubits</text>
+  <text x="22" y="248" font-size="7.5" fill="#374151">Apr: Project Eleven breaks</text>
+  <text x="22" y="260" font-size="7.5" fill="#374151">15-bit ECC key (512x record)</text>
+  <text x="22" y="276" font-size="7.5" fill="#374151">McKinsey: 2027-2030 window</text>
+  <text x="22" y="292" font-size="7.5" fill="#374151">Google: 10 min to break ECDSA</text>
+  <text x="22" y="308" font-size="7.5" fill="#374151">on sufficient hardware</text>
+  <line x1="100" y1="338" x2="100" y2="380" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 2: VULNERABLE BTC            -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="228" y="388" width="72" height="64" rx="4" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <circle cx="264" cy="406" r="10" fill="#d97706"/>
+  <text x="264" y="411" font-size="12" fill="#fff" text-anchor="middle">₿</text>
+  <rect x="234" y="418" width="60" height="22" rx="3" fill="#d97706"/>
+  <text x="264" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">6.7M BTC</text>
+  <text x="264" y="440" font-size="6" fill="#6b7280" text-anchor="middle">~34% of supply</text>
+  <text x="264" y="450" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">P2PK vulnerable</text>
+
+  <!-- Arrow Quantum → Vulnerable BTC -->
+  <line x1="138" y1="420" x2="226" y2="420" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="144" y="404" width="76" height="14" rx="2" fill="#fff0f0" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="182" y="414" font-size="7" fill="#dc2626" text-anchor="middle" font-weight="700">derives private key</text>
+
+  <!-- Vulnerable BTC box -->
+  <rect x="196" y="88" width="184" height="250" rx="3" fill="#fff7ed" stroke="#d97706" stroke-width="1"/>
+  <rect x="196" y="88" width="184" height="18" rx="3" fill="#d97706"/>
+  <text x="288" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">6.7M BTC — Exposed Public Keys</text>
+  <text x="204" y="118" font-size="7.5" fill="#374151">~34% of total Bitcoin supply</text>
+  <text x="204" y="130" font-size="7.5" fill="#374151">Satoshi: ~1.1M BTC (~$84B)</text>
+  <text x="204" y="142" font-size="7.5" fill="#374151">Pre-2012 P2PK addresses</text>
+  <text x="204" y="158" font-size="7.5" fill="#d97706" font-weight="700">3 Active Proposals (Apr-May 2026):</text>
+  <text x="204" y="172" font-size="7.5" fill="#374151" font-weight="700">BIP-361 (Jameson Lopp, Apr)</text>
+  <text x="204" y="184" font-size="7.5" fill="#374151">5-year migration + freeze</text>
+  <text x="204" y="196" font-size="7.5" fill="#374151">Problem: forces Satoshi to reveal</text>
+  <text x="204" y="212" font-size="7.5" fill="#374151" font-weight="700">PACTs (Paradigm, May 2)</text>
+  <text x="204" y="224" font-size="7.5" fill="#374151">STARK proofs — prove ownership</text>
+  <text x="204" y="236" font-size="7.5" fill="#374151">without moving coins</text>
+  <text x="204" y="252" font-size="7.5" fill="#374151" font-weight="700">AmericanFortress (May 21)</text>
+  <text x="204" y="264" font-size="7.5" fill="#374151">ZK-proof soft fork — freeze</text>
+  <text x="204" y="276" font-size="7.5" fill="#374151">governance decides later</text>
+  <text x="204" y="292" font-size="7.5" fill="#dc2626" font-weight="700">⚠ None activated yet</text>
+  <text x="204" y="304" font-size="7.5" fill="#374151">Vulnerable BTC remains at risk</text>
+  <text x="204" y="320" font-size="7.5" fill="#374151">ACAMS 3.1.2 · FATF R.15</text>
+  <line x1="264" y1="338" x2="264" y2="388" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 3: EVIDENCE PROBLEM          -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="392" y="388" width="72" height="64" rx="4" fill="#f5f0ff" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="428" cy="406" r="10" fill="#7c3aed"/>
+  <text x="428" y="411" font-size="12" fill="#fff" text-anchor="middle">⚖</text>
+  <rect x="398" y="418" width="60" height="22" rx="3" fill="#7c3aed"/>
+  <text x="428" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">EVIDENCE</text>
+  <text x="428" y="440" font-size="6" fill="#6b7280" text-anchor="middle">ECDSA contestable</text>
+  <text x="428" y="450" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">AML-IR-2026-001→008</text>
+
+  <!-- Arrow Vulnerable → Evidence -->
+  <line x1="300" y1="420" x2="390" y2="420" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr-purple)"/>
+  <rect x="306" y="404" width="78" height="14" rx="2" fill="#f5f0ff" stroke="#7c3aed" stroke-width="0.5"/>
+  <text x="345" y="414" font-size="7" fill="#7c3aed" text-anchor="middle" font-weight="700">signature forged?</text>
+
+  <!-- Evidence problem box -->
+  <rect x="374" y="88" width="192" height="250" rx="3" fill="#f5f0ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="374" y="88" width="192" height="18" rx="3" fill="#7c3aed"/>
+  <text x="470" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">The Evidence Problem</text>
+  <text x="382" y="118" font-size="7.5" fill="#374151" font-weight="700">Current standard:</text>
+  <text x="382" y="130" font-size="7.5" fill="#374151">"Address X signed this TX"</text>
+  <text x="382" y="142" font-size="7.5" fill="#374151">= ECDSA signature proof</text>
+  <text x="382" y="158" font-size="7.5" fill="#dc2626" font-weight="700">Post-quantum defense:</text>
+  <text x="382" y="170" font-size="7.5" fill="#374151">"Quantum attacker forged the</text>
+  <text x="382" y="182" font-size="7.5" fill="#374151">signature — not my client"</text>
+  <text x="382" y="198" font-size="7.5" fill="#7c3aed" font-weight="700">What survives contestation:</text>
+  <text x="382" y="210" font-size="7.5" fill="#374151">✓ Off-chain KYC records</text>
+  <text x="382" y="222" font-size="7.5" fill="#374151">✓ IP/device fingerprints</text>
+  <text x="382" y="234" font-size="7.5" fill="#374151">✓ Behavioral pattern history</text>
+  <text x="382" y="246" font-size="7.5" fill="#374151">✓ Multi-source attribution</text>
+  <text x="382" y="258" font-size="7.5" fill="#374151">✓ NIST FIPS 205 timestamps</text>
+  <text x="382" y="270" font-size="7.5" fill="#374151">✓ Customer comms + history</text>
+  <text x="382" y="286" font-size="7.5" fill="#374151" font-weight="700">Action now:</text>
+  <text x="382" y="298" font-size="7.5" fill="#374151">Document every STR with</text>
+  <text x="382" y="310" font-size="7.5" fill="#374151">corroboration independent</text>
+  <text x="382" y="322" font-size="7.5" fill="#374151">of ECDSA signatures</text>
+  <text x="382" y="334" font-size="7.5" fill="#374151">ACAMS 7.1 · FATF R.20</text>
+  <line x1="428" y1="338" x2="428" y2="388" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 4: HNDL RISK                 -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="558" y="388" width="72" height="64" rx="4" fill="#1a1a1a" stroke="#374151" stroke-width="2"/>
+  <circle cx="594" cy="406" r="10" fill="#374151"/>
+  <text x="594" y="411" font-size="12" fill="#fff" text-anchor="middle">🔐</text>
+  <rect x="564" y="418" width="60" height="22" rx="3" fill="#1f2937"/>
+  <text x="594" y="430" font-size="6.5" fill="#9ca3af" text-anchor="middle" font-weight="700">HNDL RISK</text>
+  <text x="594" y="440" font-size="6" fill="#6b7280" text-anchor="middle">Harvest now</text>
+  <text x="594" y="450" font-size="6" fill="#ef4444" text-anchor="middle" font-weight="700">Decrypt later</text>
+
+  <!-- Arrow Evidence → HNDL -->
+  <line x1="464" y1="420" x2="556" y2="420" stroke="#374151" stroke-width="2" marker-end="url(#arr-gray)"/>
+  <rect x="470" y="404" width="80" height="14" rx="2" fill="#f1f5f9" stroke="#374151" stroke-width="0.5"/>
+  <text x="510" y="414" font-size="7" fill="#374151" text-anchor="middle" font-weight="700">data collected today</text>
+
+  <!-- HNDL box -->
+  <rect x="556" y="88" width="196" height="250" rx="3" fill="#111827" stroke="#374151" stroke-width="1"/>
+  <rect x="556" y="88" width="196" height="18" rx="3" fill="#1f2937"/>
+  <text x="654" y="100" font-size="8" fill="#9ca3af" font-weight="700" text-anchor="middle">Harvest Now, Decrypt Later</text>
+  <text x="564" y="118" font-size="7.5" fill="#9ca3af">State adversaries collecting</text>
+  <text x="564" y="130" font-size="7.5" fill="#9ca3af">encrypted AML data NOW</text>
+  <text x="564" y="142" font-size="7.5" fill="#9ca3af">to decrypt in 2030s</text>
+  <text x="564" y="158" font-size="7.5" fill="#ef4444" font-weight="700">AML data at risk:</text>
+  <text x="564" y="170" font-size="7.5" fill="#9ca3af">• STRs (5-year retention)</text>
+  <text x="564" y="182" font-size="7.5" fill="#9ca3af">• COAF RIFs</text>
+  <text x="564" y="194" font-size="7.5" fill="#9ca3af">• FIU cross-border sharing</text>
+  <text x="564" y="206" font-size="7.5" fill="#9ca3af">• Analytics attribution data</text>
+  <text x="564" y="222" font-size="7.5" fill="#ef4444" font-weight="700">Federal Reserve (Sep 2025):</text>
+  <text x="564" y="234" font-size="7.5" fill="#9ca3af">FEDS 2025-093 — HNDL risk</text>
+  <text x="564" y="246" font-size="7.5" fill="#9ca3af">formally documented for</text>
+  <text x="564" y="258" font-size="7.5" fill="#9ca3af">distributed ledger networks</text>
+  <text x="564" y="274" font-size="7.5" fill="#ef4444" font-weight="700">Retention window = risk window</text>
+  <text x="564" y="286" font-size="7.5" fill="#9ca3af">5yr AML retention intersects</text>
+  <text x="564" y="298" font-size="7.5" fill="#9ca3af">2029-2031 quantum window</text>
+  <text x="564" y="314" font-size="7.5" fill="#9ca3af">No FIU in world has post-</text>
+  <text x="564" y="326" font-size="7.5" fill="#9ca3af">quantum migration roadmap</text>
+  <text x="564" y="338" font-size="7.5" fill="#6b7280">FATF R.29 · NIST FIPS 205</text>
+  <line x1="594" y1="338" x2="594" y2="388" stroke="#374151" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 5: MIGRATION WINDOW          -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="730" y="388" width="72" height="64" rx="4" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="766" cy="406" r="10" fill="#ca8a04"/>
+  <text x="766" y="411" font-size="12" fill="#fff" text-anchor="middle">⚠</text>
+  <rect x="736" y="418" width="60" height="22" rx="3" fill="#ca8a04"/>
+  <text x="766" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">MIGRATION</text>
+  <text x="766" y="440" font-size="6" fill="#6b7280" text-anchor="middle">BIP-361 window</text>
+  <text x="766" y="450" font-size="6" fill="#dc2626" text-anchor="middle" font-weight="700">AML blind spot</text>
+
+  <!-- Arrow HNDL → Migration -->
+  <line x1="630" y1="420" x2="728" y2="420" stroke="#ca8a04" stroke-width="2" marker-end="url(#arr-orange)"/>
+  <rect x="636" y="404" width="86" height="14" rx="2" fill="#fefce8" stroke="#ca8a04" stroke-width="0.5"/>
+  <text x="679" y="414" font-size="7" fill="#ca8a04" text-anchor="middle" font-weight="700">migration cover = launder?</text>
+
+  <!-- Migration box -->
+  <rect x="726" y="88" width="196" height="250" rx="3" fill="#fefce8" stroke="#ca8a04" stroke-width="1"/>
+  <rect x="726" y="88" width="196" height="18" rx="3" fill="#ca8a04"/>
+  <text x="824" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Migration Period — AML Risk</text>
+  <text x="734" y="118" font-size="7.5" fill="#374151" font-weight="700">New typology: quantum-ambiguous</text>
+  <text x="734" y="130" font-size="7.5" fill="#374151">Dormant P2PK moves full balance</text>
+  <text x="734" y="142" font-size="7.5" fill="#374151">= could be:</text>
+  <text x="734" y="154" font-size="7.5" fill="#059669">→ Legitimate owner migrating</text>
+  <text x="734" y="166" font-size="7.5" fill="#dc2626">→ Quantum theft by attacker</text>
+  <text x="734" y="178" font-size="7.5" fill="#d97706">→ Launderer using cover</text>
+  <text x="734" y="194" font-size="7.5" fill="#374151" font-weight="700">Forensically indistinguishable</text>
+  <text x="734" y="206" font-size="7.5" fill="#374151">without off-chain evidence</text>
+  <text x="734" y="222" font-size="7.5" fill="#ca8a04" font-weight="700">Launderer strategy:</text>
+  <text x="734" y="234" font-size="7.5" fill="#374151">Time layering to coincide with</text>
+  <text x="734" y="246" font-size="7.5" fill="#374151">BIP-361 migration period —</text>
+  <text x="734" y="258" font-size="7.5" fill="#374151">millions of legit moves as cover</text>
+  <text x="734" y="274" font-size="7.5" fill="#374151" font-weight="700">Monitoring rule needed:</text>
+  <text x="734" y="286" font-size="7.5" fill="#374151">Migrated address → immediate</text>
+  <text x="734" y="298" font-size="7.5" fill="#374151">mixer/bridge activity = EDD</text>
+  <text x="734" y="310" font-size="7.5" fill="#374151">Off-chain migration intent</text>
+  <text x="734" y="322" font-size="7.5" fill="#374151">evidence required</text>
+  <text x="734" y="338" font-size="7.5" fill="#374151">ACAMS 4.3.3 · FATF VA §5.3</text>
+  <line x1="766" y1="338" x2="766" y2="388" stroke="#ca8a04" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- ACTOR 6: POST-QUANTUM SOLUTIONS    -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="912" y="388" width="72" height="64" rx="4" fill="#f0fdf4" stroke="#059669" stroke-width="2"/>
+  <circle cx="948" cy="406" r="10" fill="#059669"/>
+  <text x="948" y="411" font-size="12" fill="#fff" text-anchor="middle">🛡</text>
+  <rect x="918" y="418" width="60" height="22" rx="3" fill="#059669"/>
+  <text x="948" y="430" font-size="6.5" fill="#fff" text-anchor="middle" font-weight="700">PQC SOLUTIONS</text>
+  <text x="948" y="440" font-size="6" fill="#6b7280" text-anchor="middle">NIST FIPS 205</text>
+  <text x="948" y="450" font-size="6" fill="#059669" text-anchor="middle" font-weight="700">Available now</text>
+
+  <!-- Arrow Migration → Solutions -->
+  <line x1="802" y1="420" x2="910" y2="420" stroke="#059669" stroke-width="2" marker-end="url(#arr-green)"/>
+  <rect x="808" y="404" width="96" height="14" rx="2" fill="#f0fdf4" stroke="#059669" stroke-width="0.5"/>
+  <text x="856" y="414" font-size="7" fill="#059669" text-anchor="middle" font-weight="700">migrate before Q-Day</text>
+
+  <!-- Solutions box -->
+  <rect x="898" y="88" width="210" height="250" rx="3" fill="#f0fdf4" stroke="#059669" stroke-width="1"/>
+  <rect x="898" y="88" width="210" height="18" rx="3" fill="#059669"/>
+  <text x="1003" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">Post-Quantum Solutions Available</text>
+  <text x="906" y="118" font-size="7.5" fill="#374151" font-weight="700">NIST Standards (Aug 2024):</text>
+  <text x="906" y="130" font-size="7.5" fill="#374151">FIPS 205 (SLH-DSA/SPHINCS+)</text>
+  <text x="906" y="142" font-size="7.5" fill="#374151">Hash-based signatures — quantum</text>
+  <text x="906" y="154" font-size="7.5" fill="#374151">resistant · Use for timestamps</text>
+  <text x="906" y="166" font-size="7.5" fill="#374151">FIPS 203 (ML-KEM/Kyber)</text>
+  <text x="906" y="178" font-size="7.5" fill="#374151">Key encapsulation — use for</text>
+  <text x="906" y="190" font-size="7.5" fill="#374151">AML data encryption</text>
+  <text x="906" y="206" font-size="7.5" fill="#374151" font-weight="700">Bitcoin proposals:</text>
+  <text x="906" y="218" font-size="7.5" fill="#374151">BIP-360: P2MR + ML-DSA</text>
+  <text x="906" y="230" font-size="7.5" fill="#374151">BIP-361: Freeze + migrate</text>
+  <text x="906" y="242" font-size="7.5" fill="#374151">PACTs: STARK ownership proof</text>
+  <text x="906" y="258" font-size="7.5" fill="#374151" font-weight="700">For AML systems:</text>
+  <text x="906" y="270" font-size="7.5" fill="#374151">US NSM-10: Apr 2026 deadline</text>
+  <text x="906" y="282" font-size="7.5" fill="#374151">for federal PQC plans</text>
+  <text x="906" y="294" font-size="7.5" fill="#374151">EU: quantum-resistance by 2030</text>
+  <text x="906" y="306" font-size="7.5" fill="#dc2626" font-weight="700">Brazil: no FIU PQC mandate yet</text>
+  <text x="906" y="322" font-size="7.5" fill="#374151">SISCOAF migration roadmap</text>
+  <text x="906" y="334" font-size="7.5" fill="#374151">urgently needed</text>
+  <line x1="948" y1="338" x2="948" y2="388" stroke="#059669" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- RIGHT PANEL: 5 ANALYST ACTIONS     -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="1120" y="88" width="304" height="364" rx="3" fill="#eff6ff" stroke="#1a3a6b" stroke-width="1.5"/>
+  <rect x="1120" y="88" width="304" height="18" rx="3" fill="#1a3a6b"/>
+  <text x="1272" y="100" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">5 Actions for AML Analysts — Do Today</text>
+
+  <g font-size="7.5">
+    <rect x="1124" y="110" width="296" height="48" rx="2" fill="#e0e7ff"/>
+    <text x="1128" y="122" fill="#1a3a6b" font-weight="700">1. Upgrade documentation standard NOW</text>
+    <text x="1128" y="134" fill="#374151">Every STR must include off-chain corroboration</text>
+    <text x="1128" y="146" fill="#374151">independent of ECDSA: KYC, IP, behavioral history</text>
+    <text x="1128" y="154" fill="#6b7280" font-size="7">ACAMS 7.1 · Document as if ECDSA will be contested</text>
+
+    <rect x="1124" y="162" width="296" height="48" rx="2" fill="#e0e7ff"/>
+    <text x="1128" y="174" fill="#1a3a6b" font-weight="700">2. Flag P2PK address exposure in monitoring</text>
+    <text x="1128" y="186" fill="#374151">Customers with P2PK history = enhanced monitoring</text>
+    <text x="1128" y="198" fill="#374151">Both legitimate migration AND quantum theft risk</text>
+    <text x="1128" y="206" fill="#6b7280" font-size="7">ACAMS 3.1.2 · New rule: dormancy-break + mixer = EDD</text>
+
+    <rect x="1124" y="214" width="296" height="48" rx="2" fill="#e0e7ff"/>
+    <text x="1128" y="226" fill="#1a3a6b" font-weight="700">3. Adopt NIST FIPS 205 for documentation</text>
+    <text x="1128" y="238" fill="#374151">Timestamp forensic evidence with hash-based</text>
+    <text x="1128" y="250" fill="#374151">signatures that remain valid post-Q-Day</text>
+    <text x="1128" y="258" fill="#6b7280" font-size="7">NIST FIPS 205 (SLH-DSA) — quantum-resistant</text>
+
+    <rect x="1124" y="266" width="296" height="48" rx="2" fill="#e0e7ff"/>
+    <text x="1128" y="278" fill="#1a3a6b" font-weight="700">4. Advocate for FIU post-quantum migration</text>
+    <text x="1128" y="290" fill="#374151">STRs retained 5 years intersect 2029-2031 window</text>
+    <text x="1128" y="302" fill="#374151">SISCOAF and COAF need PQC roadmap urgently</text>
+    <text x="1128" y="310" fill="#6b7280" font-size="7">FATF R.29 · No Brazilian FIU mandate exists yet</text>
+
+    <rect x="1124" y="318" width="296" height="48" rx="2" fill="#e0e7ff"/>
+    <text x="1128" y="330" fill="#1a3a6b" font-weight="700">5. Prepare migration-period monitoring rules</text>
+    <text x="1128" y="342" fill="#374151">Before BIP-361 activates: configure rules for</text>
+    <text x="1128" y="354" fill="#374151">quantum-ambiguous movement pattern</text>
+    <text x="1128" y="362" fill="#6b7280" font-size="7">ACAMS 4.3.3 · Off-chain migration intent = differentiator</text>
+
+    <text x="1128" y="386" fill="#059669" font-weight="700">"The blockchain recorded everything.</text>
+    <text x="1128" y="398" fill="#059669" font-weight="700">Quantum changes whether signatures</text>
+    <text x="1128" y="410" fill="#059669" font-weight="700">can be trusted — not what's recorded."</text>
+												   <text x="1128" y="426" fill="#374151">ACAMS CAMS 10th Ed. · FATF R.20/R.29</text>
+    <text x="1128" y="438" fill="#374151">NIST FIPS 203/205 · Lei 9.613 Art. 10</text>
+  </g>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- BOTTOM: RED FLAGS + TIMELINE       -->
+  <!-- ══════════════════════════════════ -->
+  <rect x="14" y="598" width="1100" height="110" rx="3" fill="#fff8f8" stroke="#dc2626" stroke-width="1"/>
+  <rect x="14" y="598" width="1100" height="18" rx="3" fill="#dc2626"/>
+  <text x="564" y="610" font-size="8" fill="#fff" font-weight="700" text-anchor="middle">AML Red Flags — Quantum Era Typologies</text>
+  <g font-size="7.5" fill="#374151">
+    <text x="22" y="630">• Quantum-ambiguous movement: dormant P2PK address + full balance movement — cannot distinguish theft from migration without off-chain evidence</text>
+    <text x="22" y="643">• Migration-cover layering: dormant address migrates then immediately uses mixer/bridge — timing with BIP-361 activation period is key indicator</text>
+    <text x="22" y="656">• HNDL data exposure: AML intelligence systems using pre-NIST encryption — data collected today within quantum decryption window</text>
+    <text x="22" y="669">• Evidence contestability: STRs filed without off-chain corroboration — ECDSA signatures alone insufficient for post-2029 criminal proceedings</text>
+    <text x="22" y="682">• Strategic ambiguity defense: defendants claiming "quantum attacker forged my signature" — pre-empt with behavioral pattern documentation</text>
+    <text x="22" y="695" fill="#dc2626" font-weight="700">Frameworks: ACAMS 7.1 · FATF R.20/R.29 · NIST FIPS 203/205 · Lei 9.613 Art. 10 · NSM-10 (USA)</text>
+  </g>
+
+  <!-- TIMELINE -->
+  <rect x="0" y="718" width="1440" height="72" fill="#f8fafc"/>
+  <rect x="0" y="718" width="1440" height="1" fill="#e2e8f0"/>
+  <text x="20" y="736" font-size="7.5" fill="#1a3a6b" font-weight="700">Quantum Timeline:</text>
+  <line x1="100" y1="758" x2="1400" y2="758" stroke="#1a3a6b" stroke-width="1.5"/>
+
+  <g font-size="7" text-anchor="middle">
+    <circle cx="150" cy="758" r="5" fill="#059669"/>
+    <line x1="150" y1="753" x2="150" y2="738" stroke="#059669" stroke-width="1"/>
+    <text x="150" y="735" fill="#059669">Aug 2024</text>
+    <text x="150" y="770" fill="#374151">NIST FIPS 203/205</text>
+    <text x="150" y="779" fill="#374151">PQC standards final</text>
+
+    <circle cx="330" cy="758" r="5" fill="#374151"/>
+    <line x1="330" y1="753" x2="330" y2="738" stroke="#374151" stroke-width="1"/>
+    <text x="330" y="735" fill="#374151">Sep 2025</text>
+    <text x="330" y="770" fill="#374151">Fed Reserve HNDL</text>
+    <text x="330" y="779" fill="#374151">paper published</text>
+
+    <circle cx="510" cy="758" r="5" fill="#dc2626"/>
+    <line x1="510" y1="753" x2="510" y2="738" stroke="#dc2626" stroke-width="1"/>
+    <text x="510" y="735" fill="#dc2626">Mar 2026</text>
+    <text x="510" y="770" fill="#374151">Google: &lt;1,200</text>
+    <text x="510" y="779" fill="#374151">qubits estimate</text>
+
+    <circle cx="690" cy="758" r="5" fill="#dc2626"/>
+    <line x1="690" y1="753" x2="690" y2="738" stroke="#dc2626" stroke-width="1"/>
+    <text x="690" y="735" fill="#dc2626">Apr 2026</text>
+    <text x="690" y="770" fill="#374151">BIP-361 proposed</text>
+    <text x="690" y="779" fill="#374151">P11 breaks 15-bit ECC</text>
+
+    <circle cx="870" cy="758" r="6" fill="#ca8a04" stroke="#1a3a6b" stroke-width="1.5"/>
+    <line x1="870" y1="752" x2="870" y2="734" stroke="#ca8a04" stroke-width="2"/>
+    <text x="870" y="731" fill="#ca8a04" font-weight="700">May 2026</text>
+    <text x="870" y="770" fill="#ca8a04" font-weight="700">PACTs + AmericanFortress</text>
+    <text x="870" y="779" fill="#374151">3 proposals active — none enacted</text>
+
+    <circle cx="1060" cy="758" r="5" fill="#d97706"/>
+    <line x1="1060" y1="753" x2="1060" y2="738" stroke="#d97706" stroke-width="1"/>
+    <text x="1060" y="735" fill="#d97706">2027-2030</text>
+    <text x="1060" y="770" fill="#374151">Estimated quantum</text>
+    <text x="1060" y="779" fill="#374151">capability window</text>
+
+    <circle cx="1240" cy="758" r="5" fill="#dc2626"/>
+    <line x1="1240" y1="753" x2="1240" y2="738" stroke="#dc2626" stroke-width="1"/>
+    <text x="1240" y="735" fill="#dc2626">2029-2031</text>
+    <text x="1240" y="770" fill="#dc2626">CRQC possible</text>
+    <text x="1240" y="779" fill="#374151">ECDSA not reliable</text>
+
+    <circle cx="1380" cy="758" r="5" fill="#374151"/>
+    <line x1="1380" y1="753" x2="1380" y2="738" stroke="#374151" stroke-width="1"/>
+    <text x="1380" y="735" fill="#374151">Post Q-Day</text>
+    <text x="1380" y="770" fill="#374151">AML evidence</text>
+    <text x="1380" y="779" fill="#374151">standard changed</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="800" width="1440" height="20" fill="#1a3a6b"/>
+  <text x="16" y="813" font-size="7" fill="#93c5fd">Author: Phelipe Agnelli — AML &amp; Blockchain Forensics  ·  Sources: Federal Reserve FEDS 2025-093 · BIP-361 · PACTs/Paradigm · AmericanFortress · Google Quantum AI · Project Eleven · NIST FIPS 205  ·  AML-IR-2026-009</text>
+  <text x="1424" y="813" font-size="7" fill="#93c5fd" text-anchor="end">github.com/PhelipeAgnelli/aml-blockchain-research</text>
+</svg>
