@@ -40,7 +40,8 @@ This is not affiliated with any institution. It's the work of someone who finds 
 | 06 | Applying Brazil's AML Law to Crypto — Lei 9.613/1998 Practitioner's Guide | May 2026 | Lei 9.613 · Art. 11 · STR · Personal Liability · Crypto Aggravating Factor | [→ Read](./06-lei9613-crypto/) |
 | 07 | When Quantum Breaks the Chain — Post-Quantum Computing and AML Forensics | May 2026 | Quantum Computing · BIP-361 · HNDL · Evidence Integrity · NIST FIPS 205 | [Read](./07-quantum-aml/) |
 | 08 | Stablecoins Under Scrutiny — GENIUS Act and Brazil's Evolving Framework | May 2026 | GENIUS Act · PPSI · BCB Res. 561 · Tether Gap · Cross-Border AML | [Read](./08-genius-act-stablecoins/) |
-| 09 | *(coming soon)*
+| 09 | The Complete US Crypto Framework — GENIUS + CLARITY and AML | May 2026 | CLARITY Act · DeFi Title · SEC/CFTC · Access Layer · BSA | [Read](./09-clarity-act-defi/) |
+| 10 | *(coming soon)*
 
 ---
 
