@@ -1,6 +1,6 @@
 # The Complete US Crypto Framework: What GENIUS + CLARITY Mean for AML Practitioners
 
-**Report:** AML-IR-2026-009 · **Author:** Phelipe Agnelli · **Date:** May 2026  
+**Report:** AML-IR-2026-009 · **Author:** Phelipe Agnelli · **Date:** June 2026  
 **Sources:** Digital Asset Market CLARITY Act (House-passed July 2025) · Senate Banking Committee Substitute (May 14, 2026) · GENIUS Act (July 18, 2025) · FinCEN/OFAC Joint NPRM (April 8, 2026) · Davis Wright Tremaine · K&L Gates · FinTech Weekly · CoinDesk · Senate Banking Committee Fact Sheets  
 **Frameworks:** ACAMS CAMS 10th Ed. · FATF Recommendations · BSA/FinCEN · OFAC · CFTC · SEC · Lei 9.613/1998 (comparative)
 
@@ -212,4 +212,4 @@ GENIUS + CLARITY represent the most serious legislative attempt to build a compr
 ---
 
 *AML-IR-2026-009 · Phelipe Agnelli — AML & Blockchain Forensics*  
-*All regulatory references are public documents. Legislative status as of May 2026: GENIUS Act is signed law; CLARITY Act is pending Senate floor vote and reconciliation with House text. This report reflects independent analysis for educational purposes.*
+*All regulatory references are public documents. Legislative status as of June 2026: GENIUS Act is signed law; CLARITY Act is pending Senate floor vote and reconciliation with House text. This report reflects independent analysis for educational purposes.*
