@@ -16,17 +16,17 @@ The work here reflects the same analytical process used in professional financia
 
 ## Background
 
-🎓 Technology Degree — Blockchain, Cryptocurrencies & Digital Finance (Anhanguera, 2026)
-📋 Enhancing Financial Inclusion with a Risk-Based Approach (ACAMS, 2026)
-📋 Prevention of Money Laundering and Terrorist Financing (ENAP, 2026)
-📋 Open Source Intelligence — ICAR/Basel Institute on Governance (2026)
-📋 Operational Analysis of Suspicious Transaction Reports — ICAR/Basel (2026)
-📋 Source of Funds Analysis — ICAR/Basel Institute on Governance (2026)
-📋 Fund Flow Visualization — ICAR/Basel Institute on Governance (2026)
-📋 Counter-Terrorist Financing — ICAR/Basel Institute on Governance (2026)
-📋 CS120: Bitcoin for Developers I — Grade 100% (Saylor University, 2026)
-💼 Production Control Analyst — IBM Brasil (2007–2009)
-🌐 Account Transition Project — IBM Poughkeepsie, NY (2007)
+- 🎓 Technology Degree — Blockchain, Cryptocurrencies & Digital Finance (Anhanguera, 2026)
+- 📋 Enhancing Financial Inclusion with a Risk-Based Approach (ACAMS, 2026)
+- 📋 Prevention of Money Laundering and Terrorist Financing (ENAP, 2026)
+- 📋 Open Source Intelligence — ICAR/Basel Institute on Governance (2026)
+- 📋 Operational Analysis of Suspicious Transaction Reports — ICAR/Basel Institute on Governance (2026)
+- 📋 Source of Funds Analysis — ICAR/Basel Institute on Governance (2026)
+- 📋 Fund Flow Visualization — ICAR/Basel Institute on Governance (2026)
+- 📋 Counter-Terrorist Financing — ICAR/Basel Institute on Governance (2026)
+- 📋 CS120: Bitcoin for Developers I — Grade 100% (Saylor University, 2026)
+- 💼 Production Control Analyst — IBM Brasil (2007–2009)
+- 🌐 Account Transition Project — IBM Poughkeepsie, NY (2007)
 
 ---
 
