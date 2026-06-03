@@ -6,25 +6,27 @@
 
 ## About
 
-I'm **Phelipe Agnelli**, an analyst based in Brazil with a background in performance, public speaking, and digital finance — including a TEDx talk at TEDx Belo Horizonte and a growing focus on Anti-Money Laundering and blockchain forensics.
+I'm Phelipe Agnelli, an AML analyst and blockchain forensics researcher based in Brazil, specializing in crypto financial crime across LATAM and global jurisdictions.
 
-This repository is a personal research project — driven by curiosity and a genuine interest in understanding how financial crime works, how it's detected, and how it fails. Every case studied here is based entirely on **public data**: open blockchain explorers, official law enforcement press releases, and open-source intelligence tools.
+This repository documents original investigative research applying ACAMS, FATF, and Basel frameworks to real-world on-chain cases — from exchange hacks and mixer prosecutions to sanctions evasion and cross-border regulatory gaps. Every analysis is grounded exclusively in public blockchain data, official enforcement records, and open-source intelligence.
 
-My goal is simple: learn by doing. Each report is an exercise in applying AML frameworks (ACAMS, FATF, Basel) to real-world on-chain events — the kind of analysis that turns raw blockchain data into a coherent investigative narrative.
-
-This is not affiliated with any institution. It's the work of someone who finds this field genuinely fascinating and believes that **understanding financial crime is the first step to preventing it**.
+The work here reflects the same analytical process used in professional financial crime investigations: identify behavioral patterns, map fund flows, classify typologies, and assess institutional exposure.
 
 ---
 
 ## Background
 
-- 🎓 Technology Degree in Blockchain, Cryptocurrencies & Digital Finance
-- 📜 ACAMS — Enhancing Financial Inclusion with a Risk-Based Approach (2026)
-- 📜 ENAP — Prevention of Money Laundering and Terrorist Financing (2026)
-- 📜 Basel Institute on Governance — OSINT, STR Analysis, Fund Flow Visualization, Source of Funds Analysis, Counter-Terrorist Financing (2026)
-- 📜 Saylor University — CS120: Bitcoin for Developers I, grade 100% (2026)
-- 💼 Former IBM Brasil — Production Control Analyst (2007–2009)
-- 🌎 Former IBM Poughkeepsie, NY — Account transition project (2007)
+🎓 Technology Degree — Blockchain, Cryptocurrencies & Digital Finance (Anhanguera, 2026)
+📋 Enhancing Financial Inclusion with a Risk-Based Approach (ACAMS, 2026)
+📋 Prevention of Money Laundering and Terrorist Financing (ENAP, 2026)
+📋 Open Source Intelligence — ICAR/Basel Institute on Governance (2026)
+📋 Operational Analysis of Suspicious Transaction Reports — ICAR/Basel (2026)
+📋 Source of Funds Analysis — ICAR/Basel Institute on Governance (2026)
+📋 Fund Flow Visualization — ICAR/Basel Institute on Governance (2026)
+📋 Counter-Terrorist Financing — ICAR/Basel Institute on Governance (2026)
+📋 CS120: Bitcoin for Developers I — Grade 100% (Saylor University, 2026)
+💼 Production Control Analyst — IBM Brasil (2007–2009)
+🌐 Account Transition Project — IBM Poughkeepsie, NY (2007)
 
 ---
 
