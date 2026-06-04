@@ -13,12 +13,6 @@
 
 ![Transaction chain: tokenized gold → digital dollar → wallet → payment card](AML-IR-2026-010-header.png)
 
-
-
----
-
-## I. Introduction
-
 ---
 
 ## I. Introduction
