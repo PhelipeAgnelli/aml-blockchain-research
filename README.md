@@ -43,7 +43,8 @@ The work here reflects the same analytical process used in professional financia
 | 07 | When Quantum Breaks the Chain — Post-Quantum Computing and AML Forensics | May 2026 | Quantum Computing · BIP-361 · HNDL · Evidence Integrity · NIST FIPS 205 | [Read](./07-quantum-aml/) |
 | 08 | Stablecoins Under Scrutiny — GENIUS Act and Brazil's Evolving Framework | May 2026 | GENIUS Act · PPSI · BCB Res. 561 · Tether Gap · Cross-Border AML | [Read](./08-genius-act-stablecoins/) |
 | 09 | The Complete US Crypto Framework — GENIUS + CLARITY and AML | May 2026 | CLARITY Act · DeFi Title · SEC/CFTC · Access Layer · BSA | [Read](./09-clarity-act-defi/) |
-| 10 | *(coming soon)*
+| 10 | GENIUS Act — Tether's XAUT Card and Mastercard Settlement: Emerging Stablecoin AML Challenges | June 2026 | GENIUS Act · XAUT · Mastercard · Stablecoin Rails · SAR Gap | [Read](10-genius-act-xaut-mastercard/) |
+| 11 | *(coming soon)*
 
 ---
 
