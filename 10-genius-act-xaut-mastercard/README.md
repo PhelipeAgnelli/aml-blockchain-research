@@ -5,7 +5,7 @@
 **Reference Codes:** FATF Recommendation 15 | FATF Recommendation 16 | FATF Guidance on Virtual Assets (2021, updated 2023) | FinCEN/OFAC NPRM April 8, 2026 | GENIUS Act (signed July 18, 2025) | ACAMS CAMS Body of Knowledge — Virtual Assets
 **Date:** June 4, 2026
 **Author:** Phelipe Agnelli | AML Analyst | Crypto Compliance Researcher
-**Repository:** github.com/PhelipeAgnelli/aml-blockchain-research
+
 
 **Repository:** github.com/PhelipeAgnelli/aml-blockchain-research
 
