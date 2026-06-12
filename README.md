@@ -52,6 +52,7 @@ The work here follows the same analytical process used in professional financial
 | 09 | The Complete US Crypto Framework — GENIUS + CLARITY and AML | May 2026 | CLARITY Act · DeFi Title · SEC/CFTC · Access Layer · BSA | [→ Read](09-clarity-act-defi) |
 | 10 | GENIUS Act — Tether's XAUT Card and Mastercard Settlement: Emerging Stablecoin AML Challenges | June 2026 | GENIUS Act · XAUT · Mastercard · Stablecoin Rails · SAR Gap | [→ Read](10-genius-act-xaut-mastercard) |
 | 11 | The Basel 1,250% Inflection Point: How Global Capital Reform Pressure Creates a Strategic Window for Brazil's PSAV Framework | June 2026 | Basel 1,250% · BCBS 405 · Consulta Pública 126 · PSAV · BACEN | [→ Read](11-basel-1250-brazil-psav/AML-IR-2026-011-Basel-1250-Inflection-Point-Brazil-PSAV-Framework.md) |
+12. [Europe's New AML Architecture and the 2026–2028 Transition Window](./12-eu-amla-transition-window/) — EU AMLA · MiCA · CASP supervision (June 2026)
 
 ---
 
