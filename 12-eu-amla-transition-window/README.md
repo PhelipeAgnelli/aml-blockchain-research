@@ -2,7 +2,7 @@
 
 **Investigative Report 12 | AML & Blockchain Forensics Research**
 **Author:** Phelipe da Matta Agnelli
-**Date:** 11 June 2026
+**Date:** 12 June 2026
 **Status:** Published
 **Classification:** Open-source research — educational purposes only
 
