@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" font-family="Helvetica, Arial, sans-serif">
+  <!-- White background -->
+  <rect width="1100" height="560" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="550" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a2e">The EU AML Transition Window, 2026–2028</text>
+  <text x="550" y="68" text-anchor="middle" font-size="14" fill="#555">Three overlapping transitions: MiCA · AMLR single rulebook · AMLA direct supervision</text>
+
+  <!-- Transition window shaded band -->
+  <rect x="150" y="100" width="800" height="330" fill="#f2f6fb" stroke="#c9d8ea" stroke-width="1" rx="6"/>
+  <text x="550" y="122" text-anchor="middle" font-size="13" font-style="italic" fill="#6a7a8c">Transition window: single market live, single rulebook and EU-level direct supervision still arriving</text>
+
+  <!-- Main timeline axis -->
+  <line x1="80" y1="300" x2="1020" y2="300" stroke="#1a1a2e" stroke-width="3"/>
+  <polygon points="1020,300 1006,293 1006,307" fill="#1a1a2e"/>
+
+  <!-- Year markers -->
+  <text x="150" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">2026</text>
+  <text x="560" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">2027</text>
+  <text x="900" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">2028</text>
+  <line x1="150" y1="295" x2="150" y2="440" stroke="#cccccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="560" y1="295" x2="560" y2="440" stroke="#cccccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="900" y1="295" x2="900" y2="440" stroke="#cccccc" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Milestone 1: 1 Jul 2026 MiCA -->
+  <circle cx="190" cy="300" r="9" fill="#2e6fb7"/>
+  <line x1="190" y1="291" x2="190" y2="180" stroke="#2e6fb7" stroke-width="2"/>
+  <rect x="115" y="138" width="150" height="46" fill="#ffffff" stroke="#2e6fb7" stroke-width="1.5" rx="5"/>
+  <text x="190" y="156" text-anchor="middle" font-size="12" font-weight="bold" fill="#2e6fb7">1 Jul 2026</text>
+  <text x="190" y="171" text-anchor="middle" font-size="11" fill="#333">MiCA transitional</text>
+  <text x="190" y="183" text-anchor="middle" font-size="11" fill="#333">period ends EU-wide</text>
+
+  <!-- Milestone 2: 15 Aug 2026 data -->
+  <circle cx="265" cy="300" r="9" fill="#7a4fb0"/>
+  <line x1="265" y1="309" x2="265" y2="395" stroke="#7a4fb0" stroke-width="2"/>
+  <rect x="190" y="395" width="150" height="46" fill="#ffffff" stroke="#7a4fb0" stroke-width="1.5" rx="5"/>
+  <text x="265" y="413" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a4fb0">15 Aug 2026</text>
+  <text x="265" y="428" text-anchor="middle" font-size="11" fill="#333">NCAs deliver entity</text>
+  <text x="265" y="440" text-anchor="middle" font-size="11" fill="#333">data to AMLA</text>
+
+  <!-- Milestone 3: end Sept 2026 provisional list -->
+  <circle cx="345" cy="300" r="9" fill="#1f8a70"/>
+  <line x1="345" y1="291" x2="345" y2="180" stroke="#1f8a70" stroke-width="2"/>
+  <rect x="270" y="138" width="150" height="46" fill="#ffffff" stroke="#1f8a70" stroke-width="1.5" rx="5"/>
+  <text x="345" y="156" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f8a70">Sep 2026</text>
+  <text x="345" y="171" text-anchor="middle" font-size="11" fill="#333">Provisional list of</text>
+  <text x="345" y="183" text-anchor="middle" font-size="11" fill="#333">eligible entities</text>
+
+  <!-- Milestone 4: Q4 2026 guidelines -->
+  <circle cx="450" cy="300" r="9" fill="#b07a2e"/>
+  <line x1="450" y1="309" x2="450" y2="395" stroke="#b07a2e" stroke-width="2"/>
+  <rect x="375" y="395" width="150" height="46" fill="#ffffff" stroke="#b07a2e" stroke-width="1.5" rx="5"/>
+  <text x="450" y="413" text-anchor="middle" font-size="12" font-weight="bold" fill="#b07a2e">Q4 2026</text>
+  <text x="450" y="428" text-anchor="middle" font-size="11" fill="#333">Ongoing-monitoring</text>
+  <text x="450" y="440" text-anchor="middle" font-size="11" fill="#333">guidelines (final)</text>
+
+  <!-- Milestone 5: 10 Jul 2027 AMLR -->
+  <circle cx="640" cy="300" r="9" fill="#c0392b"/>
+  <line x1="640" y1="291" x2="640" y2="180" stroke="#c0392b" stroke-width="2"/>
+  <rect x="565" y="138" width="150" height="46" fill="#ffffff" stroke="#c0392b" stroke-width="1.5" rx="5"/>
+  <text x="640" y="156" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">10 Jul 2027</text>
+  <text x="640" y="171" text-anchor="middle" font-size="11" fill="#333">AMLR single rulebook</text>
+  <text x="640" y="183" text-anchor="middle" font-size="11" fill="#333">applies directly</text>
+
+  <!-- Milestone 6: 2027 selection -->
+  <circle cx="760" cy="300" r="9" fill="#7a4fb0"/>
+  <line x1="760" y1="309" x2="760" y2="395" stroke="#7a4fb0" stroke-width="2"/>
+  <rect x="685" y="395" width="150" height="46" fill="#ffffff" stroke="#7a4fb0" stroke-width="1.5" rx="5"/>
+  <text x="760" y="413" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a4fb0">2027</text>
+  <text x="760" y="428" text-anchor="middle" font-size="11" fill="#333">Formal selection</text>
+  <text x="760" y="440" text-anchor="middle" font-size="11" fill="#333">exercise</text>
+
+  <!-- Milestone 7: 2028 direct supervision -->
+  <circle cx="930" cy="300" r="11" fill="#1a1a2e"/>
+  <line x1="930" y1="289" x2="930" y2="180" stroke="#1a1a2e" stroke-width="2"/>
+  <rect x="850" y="138" width="160" height="46" fill="#1a1a2e" rx="5"/>
+  <text x="930" y="156" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">2028</text>
+  <text x="930" y="171" text-anchor="middle" font-size="11" fill="#ffffff">AMLA direct supervision</text>
+  <text x="930" y="183" text-anchor="middle" font-size="11" fill="#ffffff">of ~40 entities begins</text>
+
+  <!-- Footer -->
+  <text x="550" y="510" text-anchor="middle" font-size="12" fill="#777">Sources: Regulation (EU) 2024/1620 · Regulation (EU) 2024/1624 · AMLA communications (May–June 2026) · ESMA statement of 17 April 2026</text>
+  <text x="550" y="532" text-anchor="middle" font-size="11" fill="#999">AML-IR-2026-012 · Phelipe da Matta Agnelli · Open-source research, educational purposes</text>
+</svg>
